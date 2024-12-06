@@ -7,7 +7,7 @@
   <meta name="description" content="An impressive and flawless site template that includes various UI elements and countless features, attractive ready-made blocks and rich pages, basically everything you need to create a unique and professional website.">
   <meta name="keywords" content="bootstrap 5, business, corporate, creative, gulp, marketing, minimal, modern, multipurpose, one page, responsive, saas, sass, seo, startup, html5 template, site template">
   <meta name="author" content="elemis">
-  <title>Sandbox - Modern & Multipurpose Bootstrap 5 Template</title>
+  <title>LUGAS - CV. SOLUSI UNGGASINDO</title>
   <link rel="shortcut icon" href="{{ asset('img/favicon-lugas.png') }}">
   <link rel="stylesheet" href="{{ asset('css/plugins.css') }}">
   <link rel="stylesheet" href="{{ asset('css/style.css') }}">
@@ -20,8 +20,9 @@
         <div class="container flex-lg-row flex-nowrap align-items-center">
           <div class="navbar-brand w-100">
             <a href="./index.html">
-              <img class="logo-dark" src="{{ asset('img/logo.png') }}" srcset="{{ asset('img/logo@2x.png 2x') }}" alt="" />
-              <img class="logo-light" src="{{ asset('img/logo-light.png') }}" srcset="{{ asset('img/logo-light@2x.png 2x') }}" alt="" />
+                <img class="logo-dark" src="{{ asset('img/photos/logo-lugas.png') }}" srcset="{{ asset('img/photos/logo-lugas.png') }}" alt="" />
+                <img class="logo-light" src="{{ asset('img/photos/logo-lugas.png') }}" srcset="{{ asset('img/photos/logo-lugas.png') }}" alt="" />
+                <div>CV. SOLUSI UNGGASINDO</div>
             </a>
           </div>
           <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
@@ -147,7 +148,7 @@
       <div class="swiper-container swiper-hero dots-over" data-margin="0" data-autoplay="true" data-autoplaytime="7000" data-nav="true" data-dots="true" data-items="1">
         <div class="swiper">
           <div class="swiper-wrapper">
-            <div class="swiper-slide bg-overlay bg-overlay-400 bg-dark bg-image" data-image-src="{{ asset('img/photos/bg7.jpg') }}">
+            <div class="swiper-slide bg-overlay bg-overlay-400 bg-dark bg-image" data-image-src="{{ asset('img/photos/chick-egg.jpg') }}">
               <div class="container h-100">
                 <div class="row h-100">
                   <div class="col-md-10 offset-md-1 col-lg-7 offset-lg-0 col-xl-6 col-xxl-5 text-center text-lg-start justify-content-center align-self-center align-items-start">
@@ -162,7 +163,7 @@
               <!--/.container -->
             </div>
             <!--/.swiper-slide -->
-            <div class="swiper-slide bg-overlay bg-overlay-400 bg-dark bg-image" data-image-src="{{ asset('img/photos/bg8.jpg') }}">
+            <div class="swiper-slide bg-overlay bg-overlay-400 bg-dark bg-image" data-image-src="{{ asset('img/photos/hens-factory-chicken-cages.jpg') }}">
               <div class="container h-100">
                 <div class="row h-100">
                   <div class="col-md-11 col-lg-8 col-xl-7 col-xxl-6 mx-auto text-center justify-content-center align-self-center">
@@ -177,7 +178,7 @@
               <!--/.container -->
             </div>
             <!--/.swiper-slide -->
-            <div class="swiper-slide bg-overlay bg-overlay-400 bg-dark bg-image" data-image-src="{{ asset('img/photos/bg9.jpg') }}">
+            <div class="swiper-slide bg-overlay bg-overlay-400 bg-dark bg-image" data-image-src="{{ asset('img/photos/flock-chickens-fence.jpg') }}">
               <div class="container h-100">
                 <div class="row h-100">
                   <div class="col-md-10 offset-md-1 col-lg-7 offset-lg-5 col-xl-6 offset-xl-6 col-xxl-5 offset-xxl-6 text-center text-lg-start justify-content-center align-self-center align-items-start">
