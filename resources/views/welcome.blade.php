@@ -20,10 +20,11 @@
     <header class="wrapper bg-soft-primary">
       <nav class="navbar navbar-expand-lg center-nav transparent position-absolute navbar-dark caret-none">
         <div class="container flex-lg-row flex-nowrap align-items-center">
-          <div class="navbar-brand w-100">
-            <a href="./index.html">
-              <div class="row">
-                <img src="{{ asset('img/photos/logo-lugas.png') }}" alt="" style="width:90px;height:50px;text-align: justify;"> CV. SOLUSI UNGGASINDO </img>
+          <div class="navbar-brand w-100" style="display: flex; align-items: center; justify-content: center; color: white;">
+            <a href="./index.html" style="text-decoration: none; color: inherit; display: flex; align-items: center;">
+              <div class="row" style="display: flex ; flex-direction: column; align-items: center; gap: 10px;">
+                <img src="{{ asset('img/photos/logo-lugas.png') }}" alt="" style="width: 90px; height: 50px; object-fit: contain;">
+                <span style="line-height: 1;">CV. SOLUSI UNGGASINDO</span>
               </div>
             </a>
           </div>
