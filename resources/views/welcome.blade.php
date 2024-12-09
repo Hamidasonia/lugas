@@ -21,7 +21,7 @@
       <nav class="navbar navbar-expand-lg center-nav transparent position-absolute navbar-dark caret-none">
         <div class="container flex-lg-row flex-nowrap align-items-center">
           <div class="navbar-brand w-100" style="display: flex; align-items: center; justify-content: center; color: white;">
-            <a href="./index.html" style="text-decoration: none; color: inherit; display: flex; align-items: center;">
+            <a href="#" style="text-decoration: none; color: inherit; display: flex; align-items: center;">
               <div class="row" style="display: flex ; flex-direction: column; align-items: center; gap: 10px;">
                 <img src="{{ asset('img/photos/logo-lugas.png') }}" alt="" style="width: 90px; height: 50px; object-fit: contain;">
                 <span style="line-height: 1;">CV. SOLUSI UNGGASINDO</span>
@@ -37,26 +37,23 @@
             <div class="offcanvas-body ms-lg-auto d-flex flex-column h-100">
               <ul class="navbar-nav">
                 <li class="nav-item dropdown dropdown-mega">
-                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Demos</a>
+                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Home</a>
                   <!--/.dropdown-menu -->
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Pages</a>
+                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">About</a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Projects</a>
+                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Portfolio</a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Blog</a>
+                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Partner Kami</a>
                 </li>
                 <li class="nav-item dropdown dropdown-mega">
-                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Blocks</a>
+                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">FAQ</a>
                   <!--/.dropdown-menu -->
                 </li>
-                <li class="nav-item dropdown dropdown-mega">
-                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Documentation</a>
-                  <!--/.dropdown-menu -->
-                </li>
+                
               </ul>
               <!-- /.navbar-nav -->
               <div class="offcanvas-footer d-lg-none">
@@ -97,20 +94,19 @@
       <!-- /.navbar -->
       <div class="offcanvas offcanvas-end text-inverse" id="offcanvas-info" data-bs-scroll="true">
         <div class="offcanvas-header">
-          <h3 class="text-white fs-30 mb-0">Sandbox</h3>
+          <h3 class="text-white fs-30 mb-0">LUGAS</h3>
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
             aria-label="Close"></button>
         </div>
         <div class="offcanvas-body pb-6">
           <div class="widget mb-8">
-            <p>Sandbox is a multipurpose HTML5 template with various layouts which will be a great solution for your
-              business.</p>
+            <p>LUGAS adalah konsultan pembangunan dan manajemen kandang ayam petelur Indonesia yang mengedepankan efisiensi dalam produksi </p>
           </div>
           <!-- /.widget -->
           <div class="widget mb-8">
-            <h4 class="widget-title text-white mb-3">Contact Info</h4>
-            <address> Moonshine St. 14/05 <br /> Light City, London </address>
-            <a href="mailto:first.last@email.com">info@email.com</a><br /> 00 (123) 456 78 90
+            <h4 class="widget-title text-white mb-3">Info Kontak</h4>
+            <address> Jalan Baru <br /> Jawa Tengah, Indonesia </address>
+            <a href="mailto:first.last@email.com">info@email.com</a><br /> +62 8888888
           </div>
           <!-- /.widget -->
           <div class="widget mb-8">
@@ -165,12 +161,12 @@
                     class="col-md-10 offset-md-1 col-lg-7 offset-lg-0 col-xl-6 col-xxl-5 text-center text-lg-start justify-content-center align-self-center align-items-start">
                     <h2
                       class="display-1 fs-56 mb-4 text-white animate__animated animate__slideInDown animate__delay-1s">
-                      We bring solutions to make life easier.</h2>
+                      Halo, kami adalah LUGAS.</h2>
                     <p
                       class="lead fs-23 lh-sm mb-7 text-white animate__animated animate__slideInRight animate__delay-2s">
-                      We are a creative company that focuses on long term relationships with customers.</p>
+                      Konsultan pembangunan dan manajemen kandang ayam petelur Indonesia</p>
                     <div class="animate__animated animate__slideInUp animate__delay-3s"><a href="#"
-                        class="btn btn-lg btn-outline-white rounded-pill">Read More</a></div>
+                        class="btn btn-lg btn-outline-white rounded-pill">Lebih lanjut</a></div>
                   </div>
                   <!--/column -->
                 </div>
@@ -187,10 +183,10 @@
                     class="col-md-11 col-lg-8 col-xl-7 col-xxl-6 mx-auto text-center justify-content-center align-self-center">
                     <h2
                       class="display-1 fs-56 mb-4 text-white animate__animated animate__slideInDown animate__delay-1s">
-                      We are trusted by over a million customers.</h2>
+                      Kami mengedepankan efisiensi dalam produksi</h2>
                     <p
                       class="lead fs-23 lh-sm mb-7 text-white animate__animated animate__slideInRight animate__delay-2s">
-                      Here a few reasons why our customers choose us.</p>
+                      Testimoni pelanggan kami.</p>
                     <div class="animate__animated animate__slideInUp animate__delay-3s"><a
                         href="{{ asset('media/movie.mp4') }}"
                         class="btn btn-circle btn-white btn-play ripple mx-auto mb-5" data-glightbox><i
@@ -211,12 +207,12 @@
                     class="col-md-10 offset-md-1 col-lg-7 offset-lg-5 col-xl-6 offset-xl-6 col-xxl-5 offset-xxl-6 text-center text-lg-start justify-content-center align-self-center align-items-start">
                     <h2
                       class="display-1 fs-56 mb-4 text-white animate__animated animate__slideInDown animate__delay-1s">
-                      Just sit and relax.</h2>
+                      Solusi Anda</h2>
                     <p
                       class="lead fs-23 lh-sm mb-7 text-white animate__animated animate__slideInRight animate__delay-2s">
-                      We make sure your spending is stress free so that you can have the perfect control.</p>
+                      Menjadi solusi pembangunan kandang, manajemen dan konsultasi ayam petelur.</p>
                     <div class="animate__animated animate__slideInUp animate__delay-3s"><a href="#"
-                        class="btn btn-lg btn-outline-white rounded-pill">Contact Us</a></div>
+                        class="btn btn-lg btn-outline-white rounded-pill">Hubungi kami</a></div>
                   </div>
                   <!--/column -->
                 </div>
@@ -240,12 +236,12 @@
             </div>
             <div class="overlap-grid overlap-grid-2">
               <div class="item">
-                <figure class="rounded shadow"><img src="{{ asset('img/photos/about2.jpg') }}"
-                    srcset="{{ asset('img/photos/about2@2x.jpg 2x') }}" alt=""></figure>
+                <figure class="rounded shadow"><img src="{{ asset('img/photos/flock-chickens-fence.jpg') }}"
+                     alt=""></figure>
               </div>
               <div class="item">
-                <figure class="rounded shadow"><img src="{{ asset('img/photos/about3.jpg') }}"
-                    srcset="{{ asset('img/photos/about3@2x.jpg 2x') }}" alt=""></figure>
+                <figure class="rounded shadow"><img src="{{ asset('img/photos/hens-factory-chicken-cages.jpg') }}"
+                     alt=""></figure>
               </div>
             </div>
           </div>
@@ -253,32 +249,9 @@
           <div class="col-lg-6">
             <img src="{{ asset('img/icons/lineal/megaphone.svg') }}" class="svg-inject icon-svg icon-svg-md mb-4"
               alt="" />
-            <h2 class="display-4 mb-3">Who Are We?</h2>
-            <p class="lead fs-lg">We are a digital and branding company that believes in the power of creative strategy
-              and along with great design.</p>
-            <p class="mb-6">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras
-              justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque
-              nisl consectetur et.</p>
-            <div class="row gy-3 gx-xl-8">
-              <div class="col-xl-6">
-                <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
-                  <li><span><i class="uil uil-check"></i></span><span>Aenean eu leo quam ornare curabitur blandit
-                      tempus.</span></li>
-                  <li class="mt-3"><span><i class="uil uil-check"></i></span><span>Nullam quis risus eget urna mollis
-                      ornare donec elit.</span></li>
-                </ul>
-              </div>
-              <!--/column -->
-              <div class="col-xl-6">
-                <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
-                  <li><span><i class="uil uil-check"></i></span><span>Etiam porta sem malesuada magna mollis
-                      euismod.</span></li>
-                  <li class="mt-3"><span><i class="uil uil-check"></i></span><span>Fermentum massa vivamus faucibus amet
-                      euismod.</span></li>
-                </ul>
-              </div>
-              <!--/column -->
-            </div>
+            <h2 class="display-4 mb-3">Solusi Pembangunan Kandang, Manajemen dan Konsultasi Ayam Petelur</h2>
+            <p class="lead fs-lg">Kami berfokus pada bidang ayam petelur dan menjadi ahli sejak tahun 1997</p>
+            <a href="#" class="btn btn-primary rounded-pill mb-0">Selanjutnya</a>
             <!--/.row -->
           </div>
           <!--/column -->
@@ -286,8 +259,8 @@
         <!--/.row -->
         <div class="row mb-5">
           <div class="col-md-10 col-xl-8 col-xxl-7 mx-auto text-center">
-            <img src="./assets/img/icons/lineal/list.svg" class="svg-inject icon-svg icon-svg-md mb-4" alt="" />
-            <h2 class="display-4 mb-4 px-lg-14">Here are 3 working steps to organize our business projects.</h2>
+            <img src="{{ asset('img/icons/lineal/list.svg') }}" class="svg-inject icon-svg icon-svg-md mb-4" alt="" />
+            <h2 class="display-4 mb-4 px-lg-14">Apa yang Kami Kerjakan?</h2>
           </div>
           <!-- /column -->
         </div>
@@ -302,7 +275,7 @@
                         class="number">01</span></span>
                   </div>
                   <div>
-                    <h4 class="mb-1">Collect Ideas</h4>
+                    <h4 class="mb-1">Konsultasi Bisnis Ayam Petelur</h4>
                     <p class="mb-0">Nulla vitae elit libero pharetra augue dapibus.</p>
                   </div>
                 </div>
@@ -318,7 +291,7 @@
                         class="number">02</span></span>
                   </div>
                   <div>
-                    <h4 class="mb-1">Data Analysis</h4>
+                    <h4 class="mb-1">Pembuatan Kandang dan Penyediaan Alat</h4>
                     <p class="mb-0">Vivamus sagittis lacus vel augue laoreet.</p>
                   </div>
                 </div>
@@ -334,7 +307,7 @@
                         class="number">03</span></span>
                   </div>
                   <div>
-                    <h4 class="mb-1">Finalize Product</h4>
+                    <h4 class="mb-1">Manajemen Kandang Ayam Petelur</h4>
                     <p class="mb-0">Cras mattis consectetur purus sit amet.</p>
                   </div>
                 </div>
@@ -345,16 +318,17 @@
           </div>
           <!--/column -->
           <div class="col-lg-6">
-            <h2 class="display-6 mb-3">How It Works?</h2>
-            <p class="lead fs-lg pe-lg-5">Find out everything you need to know and more about how we create our business
-              process models.</p>
-            <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem malesuada
-              magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam quis risus eget urna
-              mollis ornare.</p>
-            <p class="mb-6">Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis
-              euismod semper. Aenean lacinia bibendum nulla sed consectetur. Sed posuere consectetur est at lobortis.
-              Vestibulum id ligula porta felis.</p>
-            <a href="#" class="btn btn-primary rounded-pill mb-0">Learn More</a>
+            <h2 class="display-6 mb-3">Bagaimana Mewujudkannya?</h2>
+            <p class="lead fs-lg pe-lg-5">Berikut Tahapan Dalam Mewujudkan Mimpi Menjadi Peternak Ayam Petelur</p>
+            <h4 class="mb-1">01. Proyeksi peluang bisnis</h4>
+            <p class="mb-0">Memetakan kebutuhan domestik, membuat perencanaan keuangan, ketersediaan pakan, dan memastikan distribution channel</p>
+            <h4 class="mb-1">02. Membuat kandang</h4>
+            <p class="mb-0">Perencanaan kandang yang disesuaikan dengan anggaran, kebutuhan, geografis dan alat yang diperlukan</p>
+            <h4 class="mb-1">03. Manajemen kandang yang baik</h4>
+            <p class="mb-0"> Memastikan operasional kandang dapat berjalan dengan baik, Anda dapat menerapkan sistem kerja kami yang telah terbukti efisien</p>
+            <h4 class="mb-1">04. Menghasilkan produk</h4>
+            <p class="mb-0">Dengan sistem manajemen yang baik, Anda dapat menghasilkan produk yang baik dan sesuai linimasa</p>
+            
           </div>
           <!--/column -->
         </div>
@@ -363,283 +337,181 @@
       <!-- /.container -->
     </section>
     <!-- /section -->
-    <section class="wrapper bg-soft-primary">
-      <div class="container pt-16 pb-14 pb-md-0">
-        <div class="row gx-lg-8 gx-xl-0 align-items-center">
-          <div class="col-md-5 col-lg-5 col-xl-4 offset-xl-1 d-none d-md-flex position-relative align-self-end">
-            <div class="shape rounded-circle bg-pale-primary rellax w-21 h-21 d-md-none d-lg-block"
-              data-rellax-speed="1" style="top: 7rem; left: 1rem"></div>
-            <figure><img src="./assets/img/photos/co1.png" srcset="./assets/img/photos/co1@2x.png 2x" alt=""></figure>
-          </div>
-          <!--/column -->
-          <div class="col-md-7 col-lg-6 col-xl-6 col-xxl-5 offset-xl-1">
-            <div class="swiper-container dots-start dots-closer mt-md-10 mb-md-15" data-margin="30" data-dots="true">
-              <div class="swiper">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide">
-                    <blockquote class="icon fs-lg">
-                      <p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum ligula porta
-                        felis euismod semper. Cras justo odio consectetur nulla dapibus curabitur blandit faucibus.”</p>
-                      <div class="blockquote-details">
-                        <div class="info ps-0">
-                          <h5 class="mb-1">Coriss Ambady</h5>
-                          <p class="mb-0">Financial Analyst</p>
-                        </div>
-                      </div>
-                    </blockquote>
+    <section id="snippet-1" class="wrapper bg-light wrapper-border">
+      <div class="container pt-15 pt-md-17 pb-13 pb-md-15">
+        <h2 class="display-4 mb-3 text-center">Portfolio</h2>
+        <p class="lead fs-lg mb-10 text-center px-md-16 px-lg-21 px-xl-0">Project Sukses Kami Dalam Membangun Kandang</p>
+        <div class="swiper-container blog grid-view mb-6" data-margin="30" data-dots="true" data-items-xl="3" data-items-md="2" data-items-xs="1">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <article>
+                  <figure class="overlay overlay-1 hover-scale rounded mb-5"><a href="#"> <img src="{{ asset('img/photos/b4.jpg') }}" alt="" /></a>
+                    <figcaption>
+                      <h5 class="from-top mb-0">Read More</h5>
+                    </figcaption>
+                  </figure>
+                  <div class="post-header">
+                    <div class="post-category text-line">
+                      <a href="#" class="hover" rel="category">Kandang</a>
+                    </div>
+                    <!-- /.post-category -->
+                    <h2 class="post-title h3 mt-1 mb-3"><a class="link-dark" href="../../blog-post.html">Ligula tristique quis risus</a></h2>
                   </div>
-                  <!--/.swiper-slide -->
-                  <div class="swiper-slide">
-                    <blockquote class="icon fs-lg">
-                      <p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum ligula porta
-                        felis euismod semper. Cras justo odio consectetur adipiscing dapibus curabitur blandit.”</p>
-                      <div class="blockquote-details">
-                        <div class="info ps-0">
-                          <h5 class="mb-1">Cory Zamora</h5>
-                          <p class="mb-0">Marketing Specialist</p>
-                        </div>
-                      </div>
-                    </blockquote>
+                  <!-- /.post-header -->
+                  <div class="post-footer">
+                    <ul class="post-meta">
+                      <li class="post-date"><i class="uil uil-calendar-alt"></i><span>14 Apr 2022</span></li>
+                      <li class="post-comments"><a href="#"><i class="uil uil-comment"></i>4</a></li>
+                    </ul>
+                    <!-- /.post-meta -->
                   </div>
-                  <!--/.swiper-slide -->
-                  <div class="swiper-slide">
-                    <blockquote class="icon fs-lg">
-                      <p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum ligula porta
-                        felis euismod semper. Cras justo odio consectetur adipiscing dapibus curabitur blandit.”</p>
-                      <div class="blockquote-details">
-                        <div class="info ps-0">
-                          <h5 class="mb-1">Nikolas Brooten</h5>
-                          <p class="mb-0">Sales Manager</p>
-                        </div>
-                      </div>
-                    </blockquote>
-                  </div>
-                  <!--/.swiper-slide -->
-                </div>
-                <!--/.swiper-wrapper -->
+                  <!-- /.post-footer -->
+                </article>
+                <!-- /article -->
               </div>
-              <!-- /.swiper -->
+              <!--/.swiper-slide -->
+              <div class="swiper-slide">
+                <article>
+                  <figure class="overlay overlay-1 hover-scale rounded mb-5"><a href="#"> <img src="{{ asset('img/photos/b5.jpg') }}" alt="" /></a>
+                    <figcaption>
+                      <h5 class="from-top mb-0">Lebih lanjut</h5>
+                    </figcaption>
+                  </figure>
+                  <div class="post-header">
+                    <div class="post-category text-line">
+                      <a href="#" class="hover" rel="category">Kandang</a>
+                    </div>
+                    <!-- /.post-category -->
+                    <h2 class="post-title h3 mt-1 mb-3"><a class="link-dark" href="../../blog-post.html">Nullam id dolor elit id nibh</a></h2>
+                  </div>
+                  <!-- /.post-header -->
+                  <div class="post-footer">
+                    <ul class="post-meta">
+                      <li class="post-date"><i class="uil uil-calendar-alt"></i><span>29 Mar 2022</span></li>
+                      <li class="post-comments"><a href="#"><i class="uil uil-comment"></i>3</a></li>
+                    </ul>
+                    <!-- /.post-meta -->
+                  </div>
+                  <!-- /.post-footer -->
+                </article>
+                <!-- /article -->
+              </div>
+              <!--/.swiper-slide -->
+              <div class="swiper-slide">
+                <article>
+                  <figure class="overlay overlay-1 hover-scale rounded mb-5"><a href="#"> <img src="{{ asset('img/photos/b6.jpg') }}" alt="" /></a>
+                    <figcaption>
+                      <h5 class="from-top mb-0">Lebih lanjut</h5>
+                    </figcaption>
+                  </figure>
+                  <div class="post-header">
+                    <div class="post-category text-line">
+                      <a href="#" class="hover" rel="category">Kandang</a>
+                    </div>
+                    <!-- /.post-category -->
+                    <h2 class="post-title h3 mt-1 mb-3"><a class="link-dark" href="../../blog-post.html">Ultricies fusce porta elit</a></h2>
+                  </div>
+                  <!-- /.post-header -->
+                  <div class="post-footer">
+                    <ul class="post-meta">
+                      <li class="post-date"><i class="uil uil-calendar-alt"></i><span>26 Feb 2022</span></li>
+                      <li class="post-comments"><a href="#"><i class="uil uil-comment"></i>6</a></li>
+                    </ul>
+                    <!-- /.post-meta -->
+                  </div>
+                  <!-- /.post-footer -->
+                </article>
+                <!-- /article -->
+              </div>
+              <!--/.swiper-slide -->
+              <div class="swiper-slide">
+                <article>
+                  <figure class="overlay overlay-1 hover-scale rounded mb-5"><a href="#"> <img src="{{ asset('img/photos/b7.jpg') }}" alt="" /></a>
+                    <figcaption>
+                      <h5 class="from-top mb-0">Lebih lanjut</h5>
+                    </figcaption>
+                  </figure>
+                  <div class="post-header">
+                    <div class="post-category text-line">
+                      <a href="#" class="hover" rel="category">Kandang</a>
+                    </div>
+                    <!-- /.post-category -->
+                    <h2 class="post-title h3 mt-1 mb-3"><a class="link-dark" href="../../blog-post.html">Morbi leo risus porta eget</a></h2>
+                  </div>
+                  <div class="post-footer">
+                    <ul class="post-meta">
+                      <li class="post-date"><i class="uil uil-calendar-alt"></i><span>7 Jan 2022</span></li>
+                      <li class="post-comments"><a href="#"><i class="uil uil-comment"></i>2</a></li>
+                    </ul>
+                    <!-- /.post-meta -->
+                  </div>
+                  <!-- /.post-footer -->
+                </article>
+                <!-- /article -->
+              </div>
+              <!--/.swiper-slide -->
             </div>
-            <!-- /.swiper-container -->
+            <!--/.swiper-wrapper -->
           </div>
-          <!--/column -->
+          <!-- /.swiper -->
         </div>
-        <!--/.row -->
+        <!-- /.swiper-container -->
       </div>
+      <!-- /.container -->
       <!-- /.container -->
     </section>
     <!-- /section -->
-    <section class="wrapper bg-light">
-      <div class="container py-14 py-md-16">
-        <div class="row mb-3">
-          <div class="col-md-10 col-xl-9 col-xxl-7 mx-auto text-center">
-            <img src="./assets/img/icons/lineal/team.svg" class="svg-inject icon-svg icon-svg-md mb-4" alt="" />
-            <h2 class="display-4 mb-3 px-lg-14">Save your time and money by choosing our professional team.</h2>
-          </div>
-          <!--/column -->
+
+  <!-- section -->
+  <section class="wrapper bg-gradient-primary">
+    <div class="container pt-10 pt-md-14 pb-8 text-center">
+      <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
+        <div class="col-lg-7">
+          <figure><img class="w-auto" src="{{ asset('img/illustrations/i2.png') }}" srcset="{{ asset('img/illustrations/i2.png') }}" alt="" /></figure>
         </div>
-        <!--/.row -->
-        <div class="position-relative">
-          <div class="shape rounded-circle bg-soft-yellow rellax w-16 h-16" data-rellax-speed="1"
-            style="bottom: 0.5rem; right: -1.7rem;"></div>
-          <div class="shape rounded-circle bg-line red rellax w-16 h-16" data-rellax-speed="1"
-            style="top: 0.5rem; left: -1.7rem;"></div>
-          <div class="swiper-container dots-closer mb-6" data-margin="0" data-dots="true" data-items-xxl="4"
-            data-items-lg="3" data-items-md="2" data-items-xs="1">
-            <div class="swiper">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <div class="item-inner">
-                    <div class="card">
-                      <div class="card-body">
-                        <img class="rounded-circle w-15 mb-4" src="./assets/img/avatars/te1.jpg"
-                          srcset="./assets/img/avatars/te1@2x.jpg 2x" alt="" />
-                        <h4 class="mb-1">Coriss Ambady</h4>
-                        <div class="meta mb-2">Financial Analyst</div>
-                        <p class="mb-2">Fermentum massa justo sit amet risus morbi leo.</p>
-                        <nav class="nav social mb-0">
-                          <a href="#"><i class="uil uil-twitter"></i></a>
-                          <a href="#"><i class="uil uil-facebook-f"></i></a>
-                          <a href="#"><i class="uil uil-dribbble"></i></a>
-                        </nav>
-                        <!-- /.social -->
-                      </div>
-                      <!--/.card-body -->
-                    </div>
-                    <!-- /.card -->
-                  </div>
-                  <!-- /.item-inner -->
-                </div>
-                <!--/.swiper-slide -->
-                <div class="swiper-slide">
-                  <div class="item-inner">
-                    <div class="card">
-                      <div class="card-body">
-                        <img class="rounded-circle w-15 mb-4" src="./assets/img/avatars/te2.jpg"
-                          srcset="./assets/img/avatars/te2@2x.jpg 2x" alt="" />
-                        <h4 class="mb-1">Cory Zamora</h4>
-                        <div class="meta mb-2">Marketing Specialist</div>
-                        <p class="mb-2">Fermentum massa justo sit amet risus morbi leo.</p>
-                        <nav class="nav social mb-0">
-                          <a href="#"><i class="uil uil-twitter"></i></a>
-                          <a href="#"><i class="uil uil-facebook-f"></i></a>
-                          <a href="#"><i class="uil uil-dribbble"></i></a>
-                        </nav>
-                        <!-- /.social -->
-                      </div>
-                      <!--/.card-body -->
-                    </div>
-                    <!-- /.card -->
-                  </div>
-                  <!-- /.item-inner -->
-                </div>
-                <!--/.swiper-slide -->
-                <div class="swiper-slide">
-                  <div class="item-inner">
-                    <div class="card">
-                      <div class="card-body">
-                        <img class="rounded-circle w-15 mb-4" src="./assets/img/avatars/te3.jpg"
-                          srcset="./assets/img/avatars/te3@2x.jpg 2x" alt="" />
-                        <h4 class="mb-1">Nikolas Brooten</h4>
-                        <div class="meta mb-2">Sales Manager</div>
-                        <p class="mb-2">Fermentum massa justo sit amet risus morbi leo.</p>
-                        <nav class="nav social mb-0">
-                          <a href="#"><i class="uil uil-twitter"></i></a>
-                          <a href="#"><i class="uil uil-facebook-f"></i></a>
-                          <a href="#"><i class="uil uil-dribbble"></i></a>
-                        </nav>
-                        <!-- /.social -->
-                      </div>
-                      <!--/.card-body -->
-                    </div>
-                    <!-- /.card -->
-                  </div>
-                  <!-- /.item-inner -->
-                </div>
-                <!--/.swiper-slide -->
-                <div class="swiper-slide">
-                  <div class="item-inner">
-                    <div class="card">
-                      <div class="card-body">
-                        <img class="rounded-circle w-15 mb-4" src="./assets/img/avatars/te4.jpg"
-                          srcset="./assets/img/avatars/te4@2x.jpg 2x" alt="" />
-                        <h4 class="mb-1">Jackie Sanders</h4>
-                        <div class="meta mb-2">Investment Planner</div>
-                        <p class="mb-2">Fermentum massa justo sit amet risus morbi leo.</p>
-                        <nav class="nav social mb-0">
-                          <a href="#"><i class="uil uil-twitter"></i></a>
-                          <a href="#"><i class="uil uil-facebook-f"></i></a>
-                          <a href="#"><i class="uil uil-dribbble"></i></a>
-                        </nav>
-                        <!-- /.social -->
-                      </div>
-                      <!--/.card-body -->
-                    </div>
-                    <!-- /.card -->
-                  </div>
-                  <!-- /.item-inner -->
-                </div>
-                <!--/.swiper-slide -->
-                <div class="swiper-slide">
-                  <div class="item-inner">
-                    <div class="card">
-                      <div class="card-body">
-                        <img class="rounded-circle w-15 mb-4" src="./assets/img/avatars/te5.jpg"
-                          srcset="./assets/img/avatars/te5@2x.jpg 2x" alt="" />
-                        <h4 class="mb-1">Laura Widerski</h4>
-                        <div class="meta mb-2">Sales Specialist</div>
-                        <p class="mb-2">Fermentum massa justo sit amet risus morbi leo.</p>
-                        <nav class="nav social mb-0">
-                          <a href="#"><i class="uil uil-twitter"></i></a>
-                          <a href="#"><i class="uil uil-facebook-f"></i></a>
-                          <a href="#"><i class="uil uil-dribbble"></i></a>
-                        </nav>
-                        <!-- /.social -->
-                      </div>
-                      <!--/.card-body -->
-                    </div>
-                    <!-- /.card -->
-                  </div>
-                  <!-- /.item-inner -->
-                </div>
-                <!--/.swiper-slide -->
-                <div class="swiper-slide">
-                  <div class="item-inner">
-                    <div class="card">
-                      <div class="card-body">
-                        <img class="rounded-circle w-15 mb-4" src="./assets/img/avatars/te6.jpg"
-                          srcset="./assets/img/avatars/te6@2x.jpg 2x" alt="" />
-                        <h4 class="mb-1">Tina Geller</h4>
-                        <div class="meta mb-2">Financial Analyst</div>
-                        <p class="mb-2">Fermentum massa justo sit amet risus morbi leo.</p>
-                        <nav class="nav social mb-0">
-                          <a href="#"><i class="uil uil-twitter"></i></a>
-                          <a href="#"><i class="uil uil-facebook-f"></i></a>
-                          <a href="#"><i class="uil uil-dribbble"></i></a>
-                        </nav>
-                        <!-- /.social -->
-                      </div>
-                      <!--/.card-body -->
-                    </div>
-                    <!-- /.card -->
-                  </div>
-                  <!-- /.item-inner -->
-                </div>
-                <!--/.swiper-slide -->
-              </div>
-              <!--/.swiper-wrapper -->
-            </div>
-            <!-- /.swiper -->
-          </div>
-          <!-- /.swiper-container -->
+        <!-- /column -->
+        <div class="col-md-10 offset-md-1 offset-lg-0 col-lg-5 text-center text-lg-start">
+          <h1 class="display-1 mb-5 mx-md-n5 mx-lg-0">Proyeksi Kami</h1>
+          <h3 class="lead fs-lg mb-7">Indistri Ayam Petelur Adalah Masa Depan</h3>
+          <span>Dengan semakin tingginya daya konsumsi telur secara nasional dan meningkatnya kebutuhan akan protein terjangkau, maka dibutuhkan peternak-peternak lokal baru yang dapat memenuhi kebutuhan tersebut, maka kami mengajak Anda untuk dapat ikut andil di dalamnya.</></span>
         </div>
-        <!-- /.position-relative -->
+        <!-- /column -->
       </div>
-      <!-- /.container -->
-    </section>
+      <!-- /.row -->
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /section -->
+  <section class="wrapper bg-light wrapper-border">
+    <div class="container py-14 py-md-16">
+      <p class="text-center mb-8">Partner Kami</p>
+      <div class="swiper-container clients mb-0" data-margin="30" data-dots="false" data-loop="true" data-autoplay="true" data-autoplaytime="1" data-drag="false" data-speed="5000" data-items-xxl="7" data-items-xl="6" data-items-lg="5" data-items-md="4" data-items-xs="2">
+        <div class="swiper">
+          <div class="swiper-wrapper ticker">
+            <div class="swiper-slide px-5"><img src="{{ asset('img/brands/c1.png') }}" alt="" /></div>
+            <div class="swiper-slide px-5"><img src="{{ asset('img/brands/c2.png') }}" alt="" /></div>
+            <div class="swiper-slide px-5"><img src="{{ asset('img/brands/c3.png') }}" alt="" /></div>
+            <div class="swiper-slide px-5"><img src="{{ asset('img/brands/c4.png') }}" alt="" /></div>
+            <div class="swiper-slide px-5"><img src="{{ asset('img/brands/c5.png') }}" alt="" /></div>
+            <div class="swiper-slide px-5"><img src="{{ asset('img/brands/c6.png') }}" alt="" /></div>
+            <div class="swiper-slide px-5"><img src="{{ asset('img/brands/c7.png') }}" alt="" /></div>
+            <div class="swiper-slide px-5"><img src="{{ asset('img/brands/c8.png') }}" alt="" /></div>
+            <div class="swiper-slide px-5"><img src="{{ asset('img/brands/c9.png') }}" alt="" /></div>
+            <div class="swiper-slide px-5"><img src="{{ asset('img/brands/c10.png') }}" alt="" /></div>
+            <div class="swiper-slide px-5"><img src="{{ asset('img/brands/c11.png') }}" alt="" /></div>
+          </div>
+          <!--/.swiper-wrapper -->
+        </div>
+        <!-- /.swiper -->
+      </div>
+      <!-- /.swiper-container -->
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /section -->
     <!-- /section -->
-    <section class="wrapper bg-soft-primary angled lower-start">
-      <div class="container py-14 py-md-16">
-        <div class="row">
-          <div class="col-xl-10 mx-auto">
-            <div class="row align-items-center counter-wrapper gy-6 text-center">
-              <div class="col-md-3">
-                <img src="./assets/img/icons/lineal/check.svg" class="svg-inject icon-svg icon-svg-lg text-primary mb-3"
-                  alt="" />
-                <h3 class="counter">7518</h3>
-                <p>Completed Projects</p>
-              </div>
-              <!--/column -->
-              <div class="col-md-3">
-                <img src="./assets/img/icons/lineal/user.svg" class="svg-inject icon-svg icon-svg-lg text-primary mb-3"
-                  alt="" />
-                <h3 class="counter">3472</h3>
-                <p>Satisfied Customers</p>
-              </div>
-              <!--/column -->
-              <div class="col-md-3">
-                <img src="./assets/img/icons/lineal/briefcase-2.svg"
-                  class="svg-inject icon-svg icon-svg-lg text-primary mb-3" alt="" />
-                <h3 class="counter">2184</h3>
-                <p>Expert Employees</p>
-              </div>
-              <!--/column -->
-              <div class="col-md-3">
-                <img src="./assets/img/icons/lineal/award-2.svg"
-                  class="svg-inject icon-svg icon-svg-lg text-primary mb-3" alt="" />
-                <h3 class="counter">4523</h3>
-                <p>Awards Won</p>
-              </div>
-              <!--/column -->
-            </div>
-            <!--/.row -->
-          </div>
-          <!-- /column -->
-        </div>
-        <!-- /.row -->
-      </div>
-      <!-- /.container -->
-    </section>
+    
     <!-- /section -->
     <section class="wrapper bg-light">
       <div class="container pt-19 pb-14 pt-md-20 pb-md-16">
@@ -647,20 +519,20 @@
           <div class="col-md-8 col-lg-6 offset-lg-0 col-xl-5 offset-xl-1 position-relative">
             <div class="shape bg-dot primary rellax w-17 h-21" data-rellax-speed="1" style="top: -2rem; left: -1.4rem;">
             </div>
-            <figure class="rounded"><img src="./assets/img/photos/about4.jpg"
-                srcset="./assets/img/photos/about4@2x.jpg 2x" alt=""></figure>
+            <figure class="rounded"><img src="{{ asset('img/photos/about4.jpg') }}"
+                 alt=""></figure>
           </div>
           <!--/column -->
           <div class="col-lg-6">
-            <img src="./assets/img/icons/lineal/telemarketer.svg" class="svg-inject icon-svg icon-svg-md mb-4" alt="" />
-            <h2 class="display-4 mb-8">Convinced yet? Let's make something great together.</h2>
+            <img src="{{ asset('img/icons/lineal/telemarketer.svg') }}" class="svg-inject icon-svg icon-svg-md mb-4" alt="" />
+            <h2 class="display-4 mb-8">Tertarik? Hubungi Kami</h2>
             <div class="d-flex flex-row">
               <div>
                 <div class="icon text-primary fs-28 me-6 mt-n1"> <i class="uil uil-location-pin-alt"></i> </div>
               </div>
               <div>
-                <h5 class="mb-1">Address</h5>
-                <address>Moonshine St. 14/05 Light City, <br class="d-none d-md-block" />London, United Kingdom
+                <h5 class="mb-1">Alamat</h5>
+                <address>Jalan Kinibaru <br class="d-none d-md-block" />Jawa Tengah, Indonesia
                 </address>
               </div>
             </div>
@@ -670,7 +542,7 @@
               </div>
               <div>
                 <h5 class="mb-1">Phone</h5>
-                <p>00 (123) 456 78 90</p>
+                <p>+62 8888000</p>
               </div>
             </div>
             <div class="d-flex flex-row">
@@ -679,7 +551,7 @@
               </div>
               <div>
                 <h5 class="mb-1">E-mail</h5>
-                <p class="mb-0"><a href="mailto:sandbox@email.com" class="link-body">sandbox@email.com</a></p>
+                <p class="mb-0"><a href="mailto:example@email.com" class="link-body">example@email.com</a></p>
               </div>
             </div>
           </div>
@@ -690,56 +562,7 @@
       <!-- /.container -->
     </section>
     <!-- /section -->
-    <section class="wrapper bg-soft-primary">
-      <div class="container py-14 py-md-16 text-center">
-        <div class="row">
-          <div class="col-md-9 col-lg-7 col-xl-7 mx-auto text-center">
-            <img src="./assets/img/icons/lineal/puzzle-2.svg" class="svg-inject icon-svg icon-svg-md mb-4" alt="" />
-            <h2 class="display-4 mb-3">Join Our Community</h2>
-            <p class="lead fs-lg mb-6 px-xl-10 px-xxl-15">We are trusted by over 5000+ clients. Join them by using our
-              services and grow your business.</p>
-          </div>
-          <!-- /column -->
-        </div>
-        <!-- /.row -->
-        <div class="row">
-          <div class="col-md-6 col-lg-5 col-xl-4 mx-auto">
-            <div class="newsletter-wrapper">
-              <!-- Begin Mailchimp Signup Form -->
-              <div id="mc_embed_signup2">
-                <form
-                  action="https://elemisfreebies.us20.list-manage.com/subscribe/post?u=aa4947f70a475ce162057838d&amp;id=b49ef47a9a"
-                  method="post" id="mc-embedded-subscribe-form2" name="mc-embedded-subscribe-form" class="validate"
-                  target="_blank" novalidate>
-                  <div id="mc_embed_signup_scroll2">
-                    <div class="mc-field-group input-group form-floating">
-                      <input type="email" value="" name="EMAIL" class="required email form-control"
-                        placeholder="Email Address" id="mce-EMAIL2">
-                      <label for="mce-EMAIL2">Email Address</label>
-                      <input type="submit" value="Join" name="subscribe" id="mc-embedded-subscribe2"
-                        class="btn btn-primary">
-                    </div>
-                    <div id="mce-responses2" class="clear">
-                      <div class="response" id="mce-error-response2" style="display:none"></div>
-                      <div class="response" id="mce-success-response2" style="display:none"></div>
-                    </div>
-                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
-                        name="b_ddc180777a163e0f9f66ee014_4b1bcfa0bc" tabindex="-1" value=""></div>
-                    <div class="clear"></div>
-                  </div>
-                </form>
-              </div>
-              <!--End mc_embed_signup-->
-            </div>
-            <!-- /.newsletter-wrapper -->
-          </div>
-          <!-- /column -->
-        </div>
-        <!-- /.row -->
-      </div>
-      <!-- /.container -->
-    </section>
+    
     <!-- /section -->
   </div>
   <!-- /.content-wrapper -->
@@ -748,11 +571,11 @@
       <div class="row gy-6 gy-lg-0">
         <div class="col-lg-4">
           <div class="widget">
-            <img class="mb-4" src="{{ asset('img/logo-light.png') }}" srcset="{{ asset('img/logo-light@2x.png 2x') }}"
+            <img class="mb-4" src="{{ asset('img/favicon-lugas.png') }}"
               alt="" />
             <p class="mb-4">© <script>
                 document.write(new Date().getUTCFullYear());
-              </script> Sandbox. All rights reserved.</p>
+              </script> Lugas. All rights reserved.</p>
             <nav class="nav social social-white">
               <a href="#"><i class="uil uil-twitter"></i></a>
               <a href="#"><i class="uil uil-facebook-f"></i></a>
@@ -767,10 +590,10 @@
         <!-- /column -->
         <div class="col-md-4 col-lg-2 offset-lg-2">
           <div class="widget">
-            <h4 class="widget-title mb-3 text-white">Need Help?</h4>
+            <h4 class="widget-title mb-3 text-white">Butuh Bantuan?</h4>
             <ul class="list-unstyled mb-0">
               <li><a href="#">Support</a></li>
-              <li><a href="#">Get Started</a></li>
+              <li><a href="#">Mulai</a></li>
               <li><a href="#">Terms of Use</a></li>
               <li><a href="#">Privacy Policy</a></li>
             </ul>
@@ -778,28 +601,9 @@
           <!-- /.widget -->
         </div>
         <!-- /column -->
-        <div class="col-md-4 col-lg-2">
-          <div class="widget">
-            <h4 class="widget-title mb-3 text-white">Learn More</h4>
-            <ul class="list-unstyled mb-0">
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Our Story</a></li>
-              <li><a href="#">Projects</a></li>
-              <li><a href="#">Pricing</a></li>
-              <li><a href="#">Features</a></li>
-            </ul>
-          </div>
-          <!-- /.widget -->
-        </div>
+        
         <!-- /column -->
-        <div class="col-md-4 col-lg-2">
-          <div class="widget">
-            <h4 class="widget-title mb-3 text-white">Get in Touch</h4>
-            <address>Moonshine St. 14/05 Light City, London, United Kingdom</address>
-            <a href="mailto:first.last@email.com">info@email.com</a><br /> 00 (123) 456 78 90
-          </div>
-          <!-- /.widget -->
-        </div>
+        
         <!-- /column -->
       </div>
       <!--/.row -->
