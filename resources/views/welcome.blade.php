@@ -233,20 +233,27 @@
     </section>
     <section class="wrapper bg-light angled lower-end">
       <div class="container py-14 py-md-16">
-        <div class="row gx-lg-8 gx-xl-12 gy-10 mb-14 mb-md-17 align-items-center">
-          <div class="col-lg-6 position-relative order-lg-2">
-            <div class="shape bg-dot primary rellax w-16 h-20" data-rellax-speed="1" style="top: 3rem; left: 5.5rem">
-            </div>
-            <div class="overlap-grid overlap-grid-2">
-              <div class="item">
-                <figure class="rounded shadow"><img src="{{ asset('img/photos/flock-chickens-fence.jpg') }}" alt="">
-                </figure>
+        <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center mb-14 mb-md-18">
+          <div class="col-lg-6 position-relative">
+            <div class="shape rounded bg-pale-red rellax d-block" data-rellax-speed="0"
+              style="top: 50%; left: 50%; width: 50%; height: 60%; transform: translate(-50%,-50%);z-index:0"></div>
+            <div class="row gx-md-5 gy-5 position-relative">
+              <div class="col-6">
+                <img class="img-fluid rounded shadow-lg mb-5" data-cue="fadeIn" data-delay="300"
+                  src="{{ asset('img/photos/flock-chickens-fence.jpg') }}" alt="" />
+                <img class="img-fluid rounded shadow-lg d-flex col-10 ms-auto" data-cue="fadeIn" data-delay="600"
+                  src="{{ asset('img/photos/flock-chickens-fence.jpg') }}" alt="" />
               </div>
-              <div class="item">
-                <figure class="rounded shadow"><img src="{{ asset('img/photos/hens-factory-chicken-cages.jpg') }}"
-                    alt=""></figure>
+              <!-- /column -->
+              <div class="col-6">
+                <img class="img-fluid rounded shadow-lg my-5" data-cue="fadeIn" data-delay="900"
+                  src="{{ asset('img/photos/hens-factory-chicken-cages.jpg') }}" alt="" />
+                <img class="img-fluid rounded shadow-lg d-flex col-10" data-cue="fadeIn" data-delay="1200"
+                  src="{{ asset('img/photos/hens-factory-chicken-cages.jpg') }}" alt="" />
               </div>
+              <!-- /column -->
             </div>
+            <!-- /.row -->
           </div>
           <!--/column -->
           <div class="col-lg-6">
@@ -279,7 +286,6 @@
                   </div>
                   <div>
                     <h4 class="mb-1">Konsultasi Bisnis Ayam Petelur</h4>
-                    <p class="mb-0">Nulla vitae elit libero pharetra augue dapibus.</p>
                   </div>
                 </div>
               </div>
@@ -295,7 +301,6 @@
                   </div>
                   <div>
                     <h4 class="mb-1">Pembuatan Kandang dan Penyediaan Alat</h4>
-                    <p class="mb-0">Vivamus sagittis lacus vel augue laoreet.</p>
                   </div>
                 </div>
               </div>
@@ -311,7 +316,6 @@
                   </div>
                   <div>
                     <h4 class="mb-1">Manajemen Kandang Ayam Petelur</h4>
-                    <p class="mb-0">Cras mattis consectetur purus sit amet.</p>
                   </div>
                 </div>
               </div>
@@ -321,27 +325,88 @@
           </div>
           <!--/column -->
           <div class="col-lg-6">
-            <h2 class="display-6 mb-3">Bagaimana Mewujudkannya?</h2>
-            <p class="lead fs-lg pe-lg-5">Berikut Tahapan Dalam Mewujudkan Mimpi Menjadi Peternak Ayam Petelur</p>
-            <h4 class="mb-1">01. Proyeksi peluang bisnis</h4>
-            <p class="mb-0">Memetakan kebutuhan domestik, membuat perencanaan keuangan, ketersediaan pakan, dan
-              memastikan distribution channel</p>
-            <h4 class="mb-1">02. Membuat kandang</h4>
-            <p class="mb-0">Perencanaan kandang yang disesuaikan dengan anggaran, kebutuhan, geografis dan alat yang
-              diperlukan</p>
-            <h4 class="mb-1">03. Manajemen kandang yang baik</h4>
-            <p class="mb-0"> Memastikan operasional kandang dapat berjalan dengan baik, Anda dapat menerapkan sistem
-              kerja kami yang telah terbukti efisien</p>
-            <h4 class="mb-1">04. Menghasilkan produk</h4>
-            <p class="mb-0">Dengan sistem manajemen yang baik, Anda dapat menghasilkan produk yang baik dan sesuai
-              linimasa</p>
+            <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
+              <div class="row gx-md-5 gy-5">
+                <div class="col-md-6 col-xl-5 align-self-end">
+                  <div class="card bg-pale-yellow">
+                    <div class="card-body">
+                      <blockquote class="icon mb-0">
+                        <p>Memetakan kebutuhan domestik, membuat perencanaan keuangan, ketersediaan pakan, dan
+                          memastikan distribution channel</p>
+                        <div class="blockquote-details">
+                          <div class="info p-0">
+                            <h5 class="mb-1">Proyeksi peluang bisnis</h5>
+                          </div>
+                        </div>
+                      </blockquote>
+                    </div>
+                    <!--/.card-body -->
+                  </div>
+                  <!--/.card -->
+                </div>
+                <!--/column -->
+                <div class="col-md-6 align-self-end">
+                  <div class="card bg-pale-red">
+                    <div class="card-body">
+                      <blockquote class="icon mb-0">
+                        <p>Perencanaan kandang yang disesuaikan dengan anggaran, kebutuhan, geografis dan alat yang
+                          diperlukan.</p>
+                        <div class="blockquote-details">
+                          <div class="info p-0">
+                            <h5 class="mb-1">Membuat kandang</h5>
+                          </div>
+                        </div>
+                      </blockquote>
+                    </div>
+                    <!--/.card-body -->
+                  </div>
+                  <!--/.card -->
+                </div>
+                <!--/column -->
+                <div class="col-md-6 col-xl-5 offset-xl-1">
+                  <div class="card bg-pale-leaf">
+                    <div class="card-body">
+                      <blockquote class="icon mb-0">
+                        <p>Memastikan operasional kandang dapat berjalan dengan baik, Anda dapat menerapkan sistem kerja
+                          kami yang telah terbukti efisien.</p>
+                        <div class="blockquote-details">
+                          <div class="info p-0">
+                            <h5 class="mb-1">Manajemen kandang yang baik</h5>
+                          </div>
+                        </div>
+                      </blockquote>
+                    </div>
+                    <!--/.card-body -->
+                  </div>
+                  <!--/.card -->
+                </div>
+                <!--/column -->
+                <div class="col-md-6 align-self-start">
+                  <div class="card bg-pale-blue">
+                    <div class="card-body">
+                      <blockquote class="icon mb-0">
+                        <p>Dengan sistem manajemen yang baik, Anda dapat menghasilkan produk yang baik dan sesuai
+                          linimasa.</p>
+                        <div class="blockquote-details">
+                          <div class="info p-0">
+                            <h5 class="mb-1">Menghasilkan produk</h5>
+                          </div>
+                        </div>
+                      </blockquote>
+                    </div>
+                    <!--/.card-body -->
+                  </div>
+                  <!--/.card -->
+                </div>
+                <!--/column -->
+              </div>
 
+            </div>
+            <!--/column -->
           </div>
-          <!--/column -->
+          <!--/.row -->
         </div>
-        <!--/.row -->
-      </div>
-      <!-- /.container -->
+        <!-- /.container -->
     </section>
     <!-- /section -->
     <section id="snippet-1" class="wrapper bg-light wrapper-border">
@@ -356,7 +421,7 @@
               <div class="swiper-slide">
                 <article>
                   <figure class="overlay overlay-1 hover-scale rounded mb-5"><a href="#"> <img
-                        src="{{ asset('img/photos/b4.jpg') }}" alt="" /></a>
+                        src="{{ asset('img/photos/kandang.jpg') }}" alt="" /></a>
                     <figcaption>
                       <h5 class="from-top mb-0">Read More</h5>
                     </figcaption>
@@ -365,17 +430,6 @@
                     <div class="post-category text-line">
                       <a href="#" class="hover" rel="category">Kandang</a>
                     </div>
-                    <!-- /.post-category -->
-                    <h2 class="post-title h3 mt-1 mb-3"><a class="link-dark" href="../../blog-post.html">Ligula
-                        tristique quis risus</a></h2>
-                  </div>
-                  <!-- /.post-header -->
-                  <div class="post-footer">
-                    <ul class="post-meta">
-                      <li class="post-date"><i class="uil uil-calendar-alt"></i><span>14 Apr 2022</span></li>
-                      <li class="post-comments"><a href="#"><i class="uil uil-comment"></i>4</a></li>
-                    </ul>
-                    <!-- /.post-meta -->
                   </div>
                   <!-- /.post-footer -->
                 </article>
@@ -385,7 +439,7 @@
               <div class="swiper-slide">
                 <article>
                   <figure class="overlay overlay-1 hover-scale rounded mb-5"><a href="#"> <img
-                        src="{{ asset('img/photos/b5.jpg') }}" alt="" /></a>
+                        src="{{ asset('img/photos/kandang.jpg') }}" alt="" /></a>
                     <figcaption>
                       <h5 class="from-top mb-0">Lebih lanjut</h5>
                     </figcaption>
@@ -394,17 +448,6 @@
                     <div class="post-category text-line">
                       <a href="#" class="hover" rel="category">Kandang</a>
                     </div>
-                    <!-- /.post-category -->
-                    <h2 class="post-title h3 mt-1 mb-3"><a class="link-dark" href="../../blog-post.html">Nullam id dolor
-                        elit id nibh</a></h2>
-                  </div>
-                  <!-- /.post-header -->
-                  <div class="post-footer">
-                    <ul class="post-meta">
-                      <li class="post-date"><i class="uil uil-calendar-alt"></i><span>29 Mar 2022</span></li>
-                      <li class="post-comments"><a href="#"><i class="uil uil-comment"></i>3</a></li>
-                    </ul>
-                    <!-- /.post-meta -->
                   </div>
                   <!-- /.post-footer -->
                 </article>
@@ -414,7 +457,7 @@
               <div class="swiper-slide">
                 <article>
                   <figure class="overlay overlay-1 hover-scale rounded mb-5"><a href="#"> <img
-                        src="{{ asset('img/photos/b6.jpg') }}" alt="" /></a>
+                        src="{{ asset('img/photos/kandang.jpg') }}" alt="" /></a>
                     <figcaption>
                       <h5 class="from-top mb-0">Lebih lanjut</h5>
                     </figcaption>
@@ -423,17 +466,6 @@
                     <div class="post-category text-line">
                       <a href="#" class="hover" rel="category">Kandang</a>
                     </div>
-                    <!-- /.post-category -->
-                    <h2 class="post-title h3 mt-1 mb-3"><a class="link-dark" href="../../blog-post.html">Ultricies fusce
-                        porta elit</a></h2>
-                  </div>
-                  <!-- /.post-header -->
-                  <div class="post-footer">
-                    <ul class="post-meta">
-                      <li class="post-date"><i class="uil uil-calendar-alt"></i><span>26 Feb 2022</span></li>
-                      <li class="post-comments"><a href="#"><i class="uil uil-comment"></i>6</a></li>
-                    </ul>
-                    <!-- /.post-meta -->
                   </div>
                   <!-- /.post-footer -->
                 </article>
@@ -443,7 +475,7 @@
               <div class="swiper-slide">
                 <article>
                   <figure class="overlay overlay-1 hover-scale rounded mb-5"><a href="#"> <img
-                        src="{{ asset('img/photos/b7.jpg') }}" alt="" /></a>
+                        src="{{ asset('img/photos/kandang.jpg') }}" alt="" /></a>
                     <figcaption>
                       <h5 class="from-top mb-0">Lebih lanjut</h5>
                     </figcaption>
@@ -452,16 +484,6 @@
                     <div class="post-category text-line">
                       <a href="#" class="hover" rel="category">Kandang</a>
                     </div>
-                    <!-- /.post-category -->
-                    <h2 class="post-title h3 mt-1 mb-3"><a class="link-dark" href="../../blog-post.html">Morbi leo risus
-                        porta eget</a></h2>
-                  </div>
-                  <div class="post-footer">
-                    <ul class="post-meta">
-                      <li class="post-date"><i class="uil uil-calendar-alt"></i><span>7 Jan 2022</span></li>
-                      <li class="post-comments"><a href="#"><i class="uil uil-comment"></i>2</a></li>
-                    </ul>
-                    <!-- /.post-meta -->
                   </div>
                   <!-- /.post-footer -->
                 </article>
@@ -476,10 +498,7 @@
         <!-- /.swiper-container -->
       </div>
       <!-- /.container -->
-      <!-- /.container -->
     </section>
-    <!-- /section -->
-
     <!-- section -->
     <section class="wrapper bg-gradient-primary">
       <div class="container pt-10 pt-md-14 pb-8 text-center">
@@ -532,8 +551,108 @@
       <!-- /.container -->
     </section>
     <!-- /section -->
-    <!-- /section -->
-
+    <section class="wrapper bg-light">
+      <div class="container py-14 py-md-16">
+        <div class="row gx-lg-8 gx-xl-12 gy-10">
+          <div class="col-lg-6 mb-0">
+            <h2 class="fs-15 text-uppercase text-primary mb-3">FAQ</h2>
+            <h3 class="display-5 mb-4">Rekomendasi</h3>
+            <p class="lead mb-6">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem
+              nec elit. Nullam quis risus eget urna mollis ornare.</p>
+            <a href="#" class="btn btn-primary rounded-pill">All FAQ</a>
+          </div>
+          <!--/column -->
+          <div class="col-lg-6">
+            <div id="accordion-3" class="accordion-wrapper">
+              <div class="card accordion-item">
+                <div class="card-header" id="accordion-heading-3-1">
+                  <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-3-1"
+                    aria-expanded="false" aria-controls="accordion-collapse-3-1">Apakah LUGAS merupakan perusahaan
+                    konsultan peternak ayam petelur?</button>
+                </div>
+                <!-- /.card-header -->
+                <div id="accordion-collapse-3-1" class="collapse" aria-labelledby="accordion-heading-3-1"
+                  data-bs-target="#accordion-3">
+                  <div class="card-body">
+                    <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
+                      sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna,
+                      vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes,
+                      nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.</p>
+                  </div>
+                  <!-- /.card-body -->
+                </div>
+                <!-- /.collapse -->
+              </div>
+              <!-- /.card -->
+              <div class="card accordion-item">
+                <div class="card-header" id="accordion-heading-3-2">
+                  <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-3-2"
+                    aria-expanded="false" aria-controls="accordion-collapse-3-2">Apa perbedaan LUGAS dengan penyedia
+                    alat peternakan lain?</button>
+                </div>
+                <!-- /.card-header -->
+                <div id="accordion-collapse-3-2" class="collapse" aria-labelledby="accordion-heading-3-2"
+                  data-bs-target="#accordion-3">
+                  <div class="card-body">
+                    <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
+                      sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna,
+                      vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes,
+                      nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.</p>
+                  </div>
+                  <!-- /.card-body -->
+                </div>
+                <!-- /.collapse -->
+              </div>
+              <!-- /.card -->
+              <div class="card accordion-item">
+                <div class="card-header" id="accordion-heading-3-3">
+                  <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-3-3"
+                    aria-expanded="false" aria-controls="accordion-collapse-3-3">Apakah LUGAS menjual alat-alat
+                    peternakan secara terpisah?</button>
+                </div>
+                <!-- /.card-header -->
+                <div id="accordion-collapse-3-3" class="collapse" aria-labelledby="accordion-heading-3-3"
+                  data-bs-target="#accordion-3">
+                  <div class="card-body">
+                    <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
+                      sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna,
+                      vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes,
+                      nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.</p>
+                  </div>
+                  <!-- /.card-body -->
+                </div>
+                <!-- /.collapse -->
+              </div>
+              <!-- /.card -->
+              <div class="card accordion-item">
+                <div class="card-header" id="accordion-heading-3-4">
+                  <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-3-4"
+                    aria-expanded="false" aria-controls="accordion-collapse-3-4">Apakah LUGAS dapat membantu membangun
+                    bisnis ayam petelur dari nol?</button>
+                </div>
+                <!-- /.card-header -->
+                <div id="accordion-collapse-3-4" class="collapse" aria-labelledby="accordion-heading-3-4"
+                  data-bs-target="#accordion-3">
+                  <div class="card-body">
+                    <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
+                      sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna,
+                      vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes,
+                      nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.</p>
+                  </div>
+                  <!-- /.card-body -->
+                </div>
+                <!-- /.collapse -->
+              </div>
+              <!-- /.card -->
+            </div>
+            <!-- /.accordion-wrapper -->
+          </div>
+          <!--/column -->
+        </div>
+        <!--/.row -->
+      </div>
+      <!-- /.container -->
+    </section>
     <!-- /section -->
     <section class="wrapper bg-light">
       <div class="container pt-19 pb-14 pt-md-20 pb-md-16">
@@ -584,8 +703,6 @@
       <!-- /.container -->
     </section>
     <!-- /section -->
-
-    <!-- /section -->
   </div>
   <!-- /.content-wrapper -->
   <footer class="bg-dark text-inverse">
@@ -619,12 +736,7 @@
               <li><a href="#">Privacy Policy</a></li>
             </ul>
           </div>
-          <!-- /.widget -->
         </div>
-        <!-- /column -->
-
-        <!-- /column -->
-
         <!-- /column -->
       </div>
       <!--/.row -->
