@@ -17,8 +17,8 @@
 
 <body>
   <div class="content-wrapper">
-    <header class="wrapper bg-soft-primary">
-      <nav class="navbar navbar-expand-lg center-nav transparent position-absolute navbar-dark caret-none">
+    <header class="header">
+      <nav class="navbar navbar-expand-lg bg-light navbar-sticky">
         <div class="container flex-lg-row flex-nowrap align-items-center">
           <div class="navbar-brand w-100"
             style="display: flex; align-items: center; justify-content: center; color: white;">
@@ -39,20 +39,20 @@
             <div class="offcanvas-body ms-lg-auto d-flex flex-column h-100">
               <ul class="navbar-nav">
                 <li class="nav-item dropdown dropdown-mega">
-                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Home</a>
+                  <a class="nav-link" href="#" data-bs-toggle="dropdown">Home</a>
                   <!--/.dropdown-menu -->
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">About</a>
+                  <a class="nav-link" href="#" data-bs-toggle="dropdown">About</a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Portfolio</a>
+                  <a class="nav-link" href="#" data-bs-toggle="dropdown">Portfolio</a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Partner Kami</a>
+                  <a class="nav-link" href="#" data-bs-toggle="dropdown">Partner Kami</a>
                 </li>
                 <li class="nav-item dropdown dropdown-mega">
-                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">FAQ</a>
+                  <a class="nav-link" href="#" data-bs-toggle="dropdown">FAQ</a>
                   <!--/.dropdown-menu -->
                 </li>
 
@@ -151,85 +151,21 @@
       <!-- /.offcanvas -->
     </header>
     <!-- /header -->
-    <section class="wrapper bg-dark">
-      <div class="swiper-container swiper-hero dots-over" data-margin="0" data-autoplay="true" data-autoplaytime="7000"
-        data-nav="true" data-dots="true" data-items="1">
-        <div class="swiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide bg-overlay bg-overlay-400 bg-dark bg-image"
-              data-image-src="{{ asset('img/photos/chick-egg.jpg') }}">
-              <div class="container h-100">
-                <div class="row h-100">
-                  <div
-                    class="col-md-10 offset-md-1 col-lg-7 offset-lg-0 col-xl-6 col-xxl-5 text-center text-lg-start justify-content-center align-self-center align-items-start">
-                    <h2
-                      class="display-1 fs-56 mb-4 text-white animate__animated animate__slideInDown animate__delay-1s">
-                      Halo, kami adalah LUGAS.</h2>
-                    <p
-                      class="lead fs-23 lh-sm mb-7 text-white animate__animated animate__slideInRight animate__delay-2s">
-                      Konsultan pembangunan dan manajemen kandang ayam petelur Indonesia</p>
-                    <div class="animate__animated animate__slideInUp animate__delay-3s"><a href="#"
-                        class="btn btn-lg btn-outline-white rounded-pill">Lebih lanjut</a></div>
-                  </div>
-                  <!--/column -->
-                </div>
-                <!--/.row -->
-              </div>
-              <!--/.container -->
+    <section class="video-wrapper bg-overlay bg-overlay-gradient px-0 mt-0 min-vh-80">
+      <video poster="{{ asset('img/photos/movie2.jpg') }}" src="{{ asset('media/chicken-video.mp4') }}" autoplay loop playsinline muted></video>
+      <div class="video-content">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 col-xl-6 text-center text-white mx-auto">
+              <h1 class="display-1 fs-54 text-white mb-5"><span class="rotator-zoom">Rapid Solutions,Innovative Thinking,Top-Notch Support</span></h1>
+              <p class="lead fs-24 mb-0 mx-xxl-8">We are a digital agency specializing in web design, mobile development and seo optimization.</p>
             </div>
-            <!--/.swiper-slide -->
-            <div class="swiper-slide bg-overlay bg-overlay-400 bg-dark bg-image"
-              data-image-src="{{ asset('img/photos/hens-factory-chicken-cages.jpg') }}">
-              <div class="container h-100">
-                <div class="row h-100">
-                  <div
-                    class="col-md-11 col-lg-8 col-xl-7 col-xxl-6 mx-auto text-center justify-content-center align-self-center">
-                    <h2
-                      class="display-1 fs-56 mb-4 text-white animate__animated animate__slideInDown animate__delay-1s">
-                      Kami mengedepankan efisiensi dalam produksi</h2>
-                    <p
-                      class="lead fs-23 lh-sm mb-7 text-white animate__animated animate__slideInRight animate__delay-2s">
-                      Testimoni pelanggan kami.</p>
-                    <div class="animate__animated animate__slideInUp animate__delay-3s"><a
-                        href="{{ asset('media/movie.mp4') }}"
-                        class="btn btn-circle btn-white btn-play ripple mx-auto mb-5" data-glightbox><i
-                          class="icn-caret-right"></i></a></div>
-                  </div>
-                  <!--/column -->
-                </div>
-                <!--/.row -->
-              </div>
-              <!--/.container -->
-            </div>
-            <!--/.swiper-slide -->
-            <div class="swiper-slide bg-overlay bg-overlay-400 bg-dark bg-image"
-              data-image-src="{{ asset('img/photos/flock-chickens-fence.jpg') }}">
-              <div class="container h-100">
-                <div class="row h-100">
-                  <div
-                    class="col-md-10 offset-md-1 col-lg-7 offset-lg-5 col-xl-6 offset-xl-6 col-xxl-5 offset-xxl-6 text-center text-lg-start justify-content-center align-self-center align-items-start">
-                    <h2
-                      class="display-1 fs-56 mb-4 text-white animate__animated animate__slideInDown animate__delay-1s">
-                      Solusi Anda</h2>
-                    <p
-                      class="lead fs-23 lh-sm mb-7 text-white animate__animated animate__slideInRight animate__delay-2s">
-                      Menjadi solusi pembangunan kandang, manajemen dan konsultasi ayam petelur.</p>
-                    <div class="animate__animated animate__slideInUp animate__delay-3s"><a href="#"
-                        class="btn btn-lg btn-outline-white rounded-pill">Hubungi kami</a></div>
-                  </div>
-                  <!--/column -->
-                </div>
-                <!--/.row -->
-              </div>
-              <!--/.container -->
-            </div>
-            <!--/.swiper-slide -->
+            <!-- /column -->
           </div>
-          <!--/.swiper-wrapper -->
         </div>
-        <!-- /.swiper -->
+        <!-- /.video-content -->
       </div>
-      <!-- /.swiper-container -->
+      <!-- /.content-overlay -->
     </section>
     <section class="wrapper bg-light angled lower-end">
       <div class="container py-14 py-md-16">
