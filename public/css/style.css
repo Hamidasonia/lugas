@@ -6,6 +6,8 @@ Version:	3.4.1
 Author:		elemis
 */
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700");
+@import url("https://fonts.google.com/specimen/Bricolage+Grotesque");
+@import url("https://fonts.google.com/specimen/Inter");
 :root,
 [data-bs-theme=light] {
   --bs-gray-100: #fefefe;
@@ -33067,16 +33069,16 @@ button.hamburger span {
   z-index: 1;
   width: 100%;
   height: 100%;
-  background: rgba(30, 34, 40, 0.5);
+  background: rgba(13, 30, 65, 0.5);
 }
 .swiper-slide.rounded.bg-overlay:before {
   border-radius: 0.4rem;
 }
 .swiper-slide.bg-overlay-300:before {
-  background: rgba(30, 34, 40, 0.3);
+  background: rgba(13, 30, 65, 0.3);
 }
 .swiper-slide.bg-overlay-400:before {
-  background: rgba(30, 34, 40, 0.4);
+  background: rgba(13, 30, 65, 0.4);
 }
 .swiper-slide.bg-overlay [class*=container]>*,
 .swiper-slide.bg-overlay .caption-wrapper>* {
@@ -39206,13 +39208,13 @@ footer.bg-dark,
   z-index: 1;
   width: 100%;
   height: 100%;
-  background: rgba(30, 34, 40, 0.5);
+  background: rgba(13, 30, 65, 0.5);
 }
 .image-wrapper.bg-overlay-300:before {
-  background: rgba(30, 34, 40, 0.3);
+  background: rgba(13, 30, 65, 0.3);
 }
 .image-wrapper.bg-overlay-400:before {
-  background: rgba(30, 34, 40, 0.4);
+  background: rgba(13, 30, 65, 0.4);
 }
 .image-wrapper.bg-overlay-light-300:before {
   background: rgba(var(--bs-white-rgb), 0.3);
@@ -39288,12 +39290,12 @@ footer.bg-dark,
   position: absolute;
   top: 0;
   left: 0;
-  background: rgba(30, 34, 40, 0.4);
+  background: rgba(13, 30, 65, 0.4);
   z-index: 1;
 }
 .video-wrapper.bg-overlay.bg-overlay-gradient:after {
   opacity: 0.4;
-  background: linear-gradient(120deg, #542461 50%, #332487 100%);
+  background: linear-gradient(120deg, #542461 50%, #0D1E41 100%);
 }
 .video-wrapper video {
   -o-object-fit: cover;
