@@ -56,15 +56,18 @@
         </div>
         <!--/column -->
       </div>
-      <!--/.row -->
+    </div>
+  </section>
+
+  <!-- Section 2 -->
+  <section class="wrapper bg-light">
+    <div class="container pt-7 pt-md-10 pb-14 pb-md-17">
       <div class="row mb-5">
         <div class="col-md-10 col-xl-8 col-xxl-7 mx-auto text-center">
           <img src="{{ asset('img/icons/lineal/list.svg') }}" class="svg-inject icon-svg icon-svg-md mb-4" alt="" />
           <h2 class="display-4 mb-4 px-lg-14">Apa yang Kami Kerjakan?</h2>
         </div>
-        <!-- /column -->
       </div>
-      <!-- /.row -->
       <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
         <div class="col-lg-6 order-lg-2">
           <div class="card me-lg-6">
@@ -79,9 +82,7 @@
                 </div>
               </div>
             </div>
-            <!--/.card-body -->
           </div>
-          <!--/.card -->
           <div class="card ms-lg-13 mt-6">
             <div class="card-body p-6">
               <div class="d-flex flex-row">
@@ -94,9 +95,7 @@
                 </div>
               </div>
             </div>
-            <!--/.card-body -->
           </div>
-          <!--/.card -->
           <div class="card mx-lg-6 mt-6">
             <div class="card-body p-6">
               <div class="d-flex flex-row">
@@ -109,96 +108,78 @@
                 </div>
               </div>
             </div>
-            <!--/.card-body -->
           </div>
-          <!--/.card -->
         </div>
-        <!--/column -->
         <div class="col-lg-6">
           <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
             <div class="row gx-md-5 gy-5">
               <div class="col-md-6 col-xl-5 align-self-end">
-                <div class="card bg-pale-yellow">
+                <div class="card bg-pale-new">
                   <div class="card-body">
                     <blockquote class="icon mb-0">
-                      <p>Memetakan kebutuhan domestik, membuat perencanaan keuangan, ketersediaan pakan, dan
+                      <p style="color: white">Memetakan kebutuhan domestik, membuat perencanaan keuangan, ketersediaan pakan, dan
                         memastikan distribution channel</p>
                       <div class="blockquote-details">
                         <div class="info p-0">
-                          <h5 class="mb-1">Proyeksi peluang bisnis</h5>
+                          <h5 class="mb-1" style="color: white">Proyeksi peluang bisnis</h5>
                         </div>
                       </div>
                     </blockquote>
                   </div>
-                  <!--/.card-body -->
                 </div>
-                <!--/.card -->
               </div>
-              <!--/column -->
               <div class="col-md-6 align-self-end">
-                <div class="card bg-pale-red">
+                <div class="card bg-pale-new">
                   <div class="card-body">
                     <blockquote class="icon mb-0">
-                      <p>Perencanaan kandang yang disesuaikan dengan anggaran, kebutuhan, geografis dan alat yang
+                      <p style="color: white">Perencanaan kandang yang disesuaikan dengan anggaran, kebutuhan, geografis dan alat yang
                         diperlukan.</p>
                       <div class="blockquote-details">
                         <div class="info p-0">
-                          <h5 class="mb-1">Membuat kandang</h5>
+                          <h5 class="mb-1" style="color: white">Membuat kandang</h5>
                         </div>
                       </div>
                     </blockquote>
                   </div>
-                  <!--/.card-body -->
                 </div>
-                <!--/.card -->
               </div>
-              <!--/column -->
               <div class="col-md-6 col-xl-5 offset-xl-1">
-                <div class="card bg-pale-leaf">
+                <div class="card bg-pale-new">
                   <div class="card-body">
                     <blockquote class="icon mb-0">
-                      <p>Memastikan operasional kandang dapat berjalan dengan baik, Anda dapat menerapkan sistem kerja
+                      <p style="color: white">Memastikan operasional kandang dapat berjalan dengan baik, Anda dapat menerapkan sistem kerja
                         kami yang telah terbukti efisien.</p>
                       <div class="blockquote-details">
                         <div class="info p-0">
-                          <h5 class="mb-1">Manajemen kandang yang baik</h5>
+                          <h5 class="mb-1" style="color: white">Manajemen kandang yang baik</h5>
                         </div>
                       </div>
                     </blockquote>
                   </div>
-                  <!--/.card-body -->
                 </div>
-                <!--/.card -->
               </div>
-              <!--/column -->
               <div class="col-md-6 align-self-start">
-                <div class="card bg-pale-blue">
+                <div class="card bg-pale-new">
                   <div class="card-body">
                     <blockquote class="icon mb-0">
-                      <p>Dengan sistem manajemen yang baik, Anda dapat menghasilkan produk yang baik dan sesuai
+                      <p style="color: white">Dengan sistem manajemen yang baik, Anda dapat menghasilkan produk yang baik dan sesuai
                         linimasa.</p>
                       <div class="blockquote-details">
                         <div class="info p-0">
-                          <h5 class="mb-1">Menghasilkan produk</h5>
+                          <h5 class="mb-1" style="color: white">Menghasilkan produk</h5>
                         </div>
                       </div>
                     </blockquote>
                   </div>
-                  <!--/.card-body -->
                 </div>
-                <!--/.card -->
               </div>
-              <!--/column -->
             </div>
-
           </div>
-          <!--/column -->
         </div>
-        <!--/.row -->
       </div>
-      <!-- /.container -->
+    </div>
   </section>
-  <!-- /section -->
+
   <section id="snippet-1" class="wrapper bg-light wrapper-border">
     <div class="container pt-15 pt-md-17 pb-13 pb-md-15">
       <h2 class="display-4 mb-3 text-center">Portfolio</h2>

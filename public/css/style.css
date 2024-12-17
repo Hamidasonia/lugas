@@ -86,6 +86,8 @@ Author:		elemis
   --bs-light-bg-subtle: #fbfbfc;
   --bs-dark-bg-subtle: #eaebec;
   --bs-soft-primary: #edf2fc;
+  --bs-soft-secondary: #DC5800;
+  --bs-soft-other: #B9B9B9;
   --bs-soft-blue: #edf2fc;
   --bs-soft-sky: #f0f8fe;
   --bs-soft-purple: #f2f3fb;
@@ -113,6 +115,7 @@ Author:		elemis
   --bs-pale-red: #fae6e7;
   --bs-pale-orange: #feece9;
   --bs-pale-yellow: #fef3e4;
+  --bs-pale-new: #DC5800;
   --bs-pale-green: #e1f6f0;
   --bs-pale-leaf: #eaf3ef;
   --bs-pale-aqua: #e4f1f6;
@@ -135,7 +138,7 @@ Author:		elemis
   --bs-bullet-soft-aqua: #e0eff5;
   --bs-bullet-soft-navy: #dadce0;
   --bs-bullet-soft-ash: #ecedee;
-  --bs-icon-fill-primary: #8caeec;
+  --bs-icon-fill-primary: #0D1E41;
   --bs-icon-fill-blue: #8caeec;
   --bs-icon-fill-sky: #9ed5f6;
   --bs-icon-fill-purple: #acb2e3;
@@ -24937,6 +24940,9 @@ figure img {
 }
 .bg-pale-yellow {
   background-color: var(--bs-pale-yellow) !important;
+}
+.bg-pale-new {
+  background-color: var(--bs-pale-new) !important;
 }
 .bg-pale-green {
   background-color: var(--bs-pale-green) !important;
