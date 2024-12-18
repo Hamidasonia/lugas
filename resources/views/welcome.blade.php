@@ -326,11 +326,11 @@
     <div class="container py-14 py-md-16">
       <div class="row gx-lg-8 gx-xl-12 gy-10">
         <div class="col-lg-6 mb-0">
-          <h2 class="fs-15 text-uppercase text-primary mb-3">FAQ</h2>
+          <h2 class="fs-15 text-uppercase text-secondary mb-3">FAQ</h2>
           <h3 class="display-5 mb-4">Rekomendasi</h3>
           <p class="lead mb-6">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem
             nec elit. Nullam quis risus eget urna mollis ornare.</p>
-          <a href="#" class="btn btn-primary rounded-pill">All FAQ</a>
+          <a href="#" class="btn btn-secondary rounded-pill">All FAQ</a>
         </div>
         <!--/column -->
         <div class="col-lg-6">
@@ -425,7 +425,8 @@
     <!-- /.container -->
   </section>
   <!-- /section -->
-  <section class="wrapper bg-light">
+
+  <section class="wrapper bg-gray">
     <div class="container pt-19 pb-14 pt-md-20 pb-md-16">
       <div class="row gx-md-8 gx-xl-12 gy-10 align-items-center">
         <div class="col-md-8 col-lg-6 offset-lg-0 col-xl-5 offset-xl-1 position-relative">
@@ -437,35 +438,8 @@
         <div class="col-lg-6">
           <img src="{{ asset('img/icons/lineal/telemarketer.svg') }}" class="svg-inject icon-svg icon-svg-md mb-4"
             alt="" />
-          <h2 class="display-4 mb-8">Tertarik? Hubungi Kami</h2>
-          <div class="d-flex flex-row">
-            <div>
-              <div class="icon text-primary fs-28 me-6 mt-n1"> <i class="uil uil-location-pin-alt"></i> </div>
-            </div>
-            <div>
-              <h5 class="mb-1">Alamat</h5>
-              <address>Jalan Kinibaru <br class="d-none d-md-block" />Jawa Tengah, Indonesia
-              </address>
-            </div>
-          </div>
-          <div class="d-flex flex-row">
-            <div>
-              <div class="icon text-primary fs-28 me-6 mt-n1"> <i class="uil uil-phone-volume"></i> </div>
-            </div>
-            <div>
-              <h5 class="mb-1">Phone</h5>
-              <p>+62 8888000</p>
-            </div>
-          </div>
-          <div class="d-flex flex-row">
-            <div>
-              <div class="icon text-primary fs-28 me-6 mt-n1"> <i class="uil uil-envelope"></i> </div>
-            </div>
-            <div>
-              <h5 class="mb-1">E-mail</h5>
-              <p class="mb-0"><a href="mailto:example@email.com" class="link-body">example@email.com</a></p>
-            </div>
-          </div>
+          <h2 class="display-4 mb-8">Jangan ragu untuk menghubungi kami perihal kandang dan peternakan ayam petelur</h2>
+          <a href="#" class="btn btn-success rounded-pill mb-0">Hubungi Kami</a>
         </div>
         <!--/column -->
       </div>

@@ -137,7 +137,7 @@
             <div class="row gy-6 gy-lg-0">
                 <div class="col-lg-4">
                     <div class="widget">
-                        <img class="mb-4" src="{{ asset('img/logo-lugas-white.png') }}" alt="" />
+                        <img class="mb-4" src="{{ asset('img/logo-lugas-white.png') }}" style="width: 200px; height: 50px;" alt="" />
                         <p class="mb-4">© <script>
                                 document.write(new Date().getUTCFullYear());
                             </script> Lugas. All rights reserved.</p>
