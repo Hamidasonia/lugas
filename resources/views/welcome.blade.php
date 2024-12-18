@@ -281,7 +281,7 @@
         <!-- /column -->
         <div class="col-md-10 offset-md-1 offset-lg-0 col-lg-5 text-center text-lg-start">
           <h1 class="display-1 mb-5 mx-md-n5 mx-lg-0">Proyeksi Kami</h1>
-          <h3 class="lead fs-lg mb-7">Indistri Ayam Petelur Adalah Masa Depan</h3>
+          <h3 class="lead fs-lg mb-7">Industri Ayam Petelur Adalah Masa Depan</h3>
           <span>Dengan semakin tingginya daya konsumsi telur secara nasional dan meningkatnya kebutuhan akan protein
             terjangkau, maka dibutuhkan peternak-peternak lokal baru yang dapat memenuhi kebutuhan tersebut, maka kami
             mengajak Anda untuk dapat ikut andil di dalamnya.</></span>
@@ -326,11 +326,11 @@
     <div class="container py-14 py-md-16">
       <div class="row gx-lg-8 gx-xl-12 gy-10">
         <div class="col-lg-6 mb-0">
-          <h2 class="fs-15 text-uppercase text-secondary mb-3">FAQ</h2>
+          <h2 class="fs-15 text-uppercase text-primary mb-3">FAQ</h2>
           <h3 class="display-5 mb-4">Rekomendasi</h3>
           <p class="lead mb-6">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem
             nec elit. Nullam quis risus eget urna mollis ornare.</p>
-          <a href="#" class="btn btn-secondary rounded-pill">All FAQ</a>
+          <a href="#" class="btn btn-primary rounded-pill">All FAQ</a>
         </div>
         <!--/column -->
         <div class="col-lg-6">

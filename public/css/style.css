@@ -6,8 +6,9 @@ Version:	3.4.1
 Author:		elemis
 */
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700");
-@import url("https://fonts.google.com/specimen/Bricolage+Grotesque");
-@import url("https://fonts.google.com/specimen/Inter");
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
 :root,
 [data-bs-theme=light] {
   --bs-gray-100: #fefefe;
@@ -38,8 +39,8 @@ Author:		elemis
   --bs-light: #fefefe;
   --bs-gray: #f6f7f9;
   --bs-dark: #262b32;
-  --bs-primary: #3f78e0;
-  --bs-secondary: #aab0bc;
+  --bs-primary: #0D1E41;
+  --bs-secondary: #DC5800;
   --bs-success: #45c4a0;
   --bs-info: #54a8c7;
   --bs-warning: #fab758;
@@ -28949,8 +28950,8 @@ button:focus {
 .btn-primary {
   --bs-btn-bg: var(--bs-primary);
   --bs-btn-border-color: var(--bs-primary);
-  --bs-btn-hover-bg: var(--bs-primary);
-  --bs-btn-hover-border-color: var(--bs-primary);
+  --bs-btn-hover-bg: var(--bs-secondary);
+  --bs-btn-hover-border-color: var(--bs-secondary);
   --bs-btn-active-bg: var(--bs-primary);
   --bs-btn-active-border-color: var(--bs-primary);
 }
