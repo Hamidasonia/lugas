@@ -66,16 +66,25 @@
                     <div class="offcanvas-body ms-lg-auto d-flex flex-column h-100">
                         <ul class="navbar-nav">
                             <li class="nav-item dropdown dropdown-mega">
-                                <a class="nav-link" href="#" data-bs-toggle="dropdown">Home</a>
+                                <a class="nav-link" href="#home" data-bs-toggle="dropdown">Home</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link" href="#" data-bs-toggle="dropdown">About</a>
+                                <a class="nav-link" href="#about" data-bs-toggle="dropdown">Tentang</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link" href="#" data-bs-toggle="dropdown">Portfolio</a>
+                                <a class="nav-link" href="#process" data-bs-toggle="dropdown">Proses</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link" href="#" data-bs-toggle="dropdown">Partner Kami</a>
+                                <a class="nav-link" href="#portfolio" data-bs-toggle="dropdown">Portfolio</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="#proyeksi" data-bs-toggle="dropdown">Proyeksi</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="#visi" data-bs-toggle="dropdown">Tujuan</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="#partner" data-bs-toggle="dropdown">Partner</a>
                             </li>
                             <li class="nav-item dropdown dropdown-mega">
                                 <a class="nav-link" href="#" data-bs-toggle="dropdown">FAQ</a>
@@ -181,6 +190,23 @@
     <!-- Main Script -->
     <script src="{{ asset('js/plugins.js') }}"></script>
     <script src="{{ asset('js/theme.js') }}"></script>
+    <script>
+        document.querySelectorAll('a.nav-link[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href').substring(1); // Menghapus '#' dari href
+        const targetSection = document.getElementById(targetId);
+
+        if (targetSection) {
+            targetSection.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start',
+            });
+        }
+    });
+});
+
+    </script>
 </body>
 
 </html>

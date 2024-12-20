@@ -6,8 +6,9 @@ Version:	3.4.1
 Author:		elemis
 */
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700");
-@import url("https://fonts.google.com/specimen/Bricolage+Grotesque");
-@import url("https://fonts.google.com/specimen/Inter");
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
 :root,
 [data-bs-theme=light] {
   --bs-gray-100: #fefefe;
@@ -38,8 +39,8 @@ Author:		elemis
   --bs-light: #fefefe;
   --bs-gray: #f6f7f9;
   --bs-dark: #262b32;
-  --bs-primary: #3f78e0;
-  --bs-secondary: #aab0bc;
+  --bs-primary: #0D1E41;
+  --bs-secondary: #DC5800;
   --bs-success: #45c4a0;
   --bs-info: #54a8c7;
   --bs-warning: #fab758;
@@ -5467,7 +5468,7 @@ fieldset:disabled .btn {
   --bs-navbar-padding-x: 0;
   --bs-navbar-padding-y: 0;
   --bs-navbar-color: #343f52;
-  --bs-navbar-hover-color: var(--bs-primary);
+  --bs-navbar-hover-color: #DC5800;
   --bs-navbar-disabled-color: rgba(52, 63, 82, 0.3);
   --bs-navbar-active-color: var(--bs-primary);
   --bs-navbar-brand-padding-y: 0;
@@ -28949,8 +28950,8 @@ button:focus {
 .btn-primary {
   --bs-btn-bg: var(--bs-primary);
   --bs-btn-border-color: var(--bs-primary);
-  --bs-btn-hover-bg: var(--bs-primary);
-  --bs-btn-hover-border-color: var(--bs-primary);
+  --bs-btn-hover-bg: var(--bs-secondary);
+  --bs-btn-hover-border-color: var(--bs-secondary);
   --bs-btn-active-bg: var(--bs-primary);
   --bs-btn-active-border-color: var(--bs-primary);
 }
@@ -33370,7 +33371,7 @@ img.svg-inject {
   height: 1.5rem;
 }
 .lineal-fill {
-  fill: var(--bs-icon-fill-primary);
+  fill: #fff;
 }
 .lineal-stroke {
   fill: #343f52;
@@ -33403,7 +33404,7 @@ img.svg-inject {
   fill: var(--bs-icon-fill-red);
 }
 .text-orange .lineal-fill {
-  fill: var(--bs-icon-fill-orange);
+  fill: #DC5800;
 }
 .text-yellow .lineal-fill {
   fill: var(--bs-icon-fill-yellow);
