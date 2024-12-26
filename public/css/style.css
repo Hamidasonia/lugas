@@ -33376,6 +33376,9 @@ img.svg-inject {
 .lineal-stroke {
   fill: #343f52;
 }
+.lineal-stroke-2 {
+  fill: #fff;
+}
 .text-primary .lineal-fill {
   fill: var(--bs-icon-fill-primary);
 }

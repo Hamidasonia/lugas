@@ -59,7 +59,6 @@
     </div>
   </section>
 
-  <!-- Section 2 -->
   {{-- <section class="wrapper bg-light">
     <div class="container pt-7 pt-md-10 pb-14 pb-md-17">
       <div class="row mb-5">
@@ -180,6 +179,7 @@
     </div>
   </section> --}}
 
+  <!-- Section 2 -->
   <section id="about" class="wrapper position-relative min-vh-60 d-lg-flex align-items-center" style="background-color: #0D1E41">
     <div class="col-lg-6 position-lg-absolute top-0 start-0 image-wrapper bg-image bg-cover h-100" data-cue="slideInLeft" data-image-src="{{ asset('img/photos/farmer.jpg') }}">
       <div class="divider divider-v-end d-none d-lg-block" style="color:#0D1E41">
@@ -236,6 +236,7 @@
     <!-- /.container -->
   </section>
 
+  <!-- Section 3 -->
   <section id="process" class="wrapper bg-light">
     <div class="container py-14 py-md-16">
       <h2 class="display-4 mb-3">Bagaimana Mewujudkannya?</h2>
@@ -268,6 +269,7 @@
   </section>
   <!-- /section -->
 
+  <!-- Section 4 -->
   <section id="portfolio" class="wrapper bg-light wrapper-border">
     <div class="container pt-15 pt-md-17 pb-13 pb-md-15">
       <div class="row text-center">
@@ -363,7 +365,7 @@
     <!-- /.container -->
   </section>
 
-  <!-- section -->
+  <!-- Section 5 -->
   <section id="proyeksi" class="wrapper bg-gradient-primary">
     <div class="container pt-10 pt-md-14 pb-8 text-center">
       <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
@@ -386,6 +388,7 @@
     <!-- /.container -->
   </section>
 
+  <!-- Section 6 -->
   <section id="visi" class="wrapper bg-white">
     <div class="container py-15 py-md-17">
       <div class="text-center">
@@ -442,7 +445,7 @@
     <!-- /.container -->
   </section>
 
-  <!-- /section -->
+  <!-- Section 7 -->
   <section id="partner" class="wrapper bg-light wrapper-border">
     <div class="container py-14 py-md-16">
       <p class="text-center mb-8">Partner Kami</p>
@@ -472,7 +475,7 @@
     <!-- /.container -->
   </section>
 
-  <!-- /section -->
+  <!-- Section 8 -->
   <section id="faq" class="wrapper bg-gray">
     <div class="container py-14 py-md-16">
       <div class="row gx-lg-8 gx-xl-12 gy-10">
@@ -599,6 +602,7 @@
     <!-- /.container -->
   </section> --}}
 
+  <!-- Section 9 -->
   <section class="wrapper image-wrapper bg-auto no-overlay bg-image text-center py-14 py-md-16 bg-map" data-image-src="{{ asset('img/map.png') }}">
     <div class="container py-0 py-md-17">
       <div class="row">
