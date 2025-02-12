@@ -51,7 +51,7 @@
             alt="" />
           <h2 class="display-4 mb-3" data-cue="slideInDown" style="color: #DC5800">Solusi Pembangunan Kandang, Manajemen dan Konsultasi Ayam Petelur</h2>
           <p class="lead fs-lg" data-cue="slideInDown" style="color: #0D1E41">Kami berfokus pada bidang ayam petelur dan menjadi ahli sejak tahun 1997</p>
-          <a href="#" class="btn btn-primary rounded-pill mb-0">Selanjutnya</a>
+          <a href="#process" class="btn btn-primary rounded-pill mb-0">Selanjutnya</a>
           <!--/.row -->
         </div>
         <!--/column -->
