@@ -603,7 +603,7 @@
   </section> --}}
 
   <!-- Section 9 -->
-  <section class="wrapper image-wrapper bg-auto no-overlay bg-image text-center py-14 py-md-16 bg-map" data-image-src="{{ asset('img/map.png') }}">
+  <section class="wrapper image-wrapper bg-auto no-overlay bg-image text-center py-14 py-md-16 bg-map" data-image-src="{{ asset('img/map.png') }}" id="hubungi">
     <div class="container py-0 py-md-17">
       <div class="row">
         <div class="col-lg-6 col-xl-5 mx-auto">

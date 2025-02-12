@@ -68,19 +68,31 @@
                     <div class="offcanvas-body ms-lg-auto d-flex flex-column h-100">
                         <ul class="navbar-nav">
                             <li class="nav-item dropdown dropdown-mega">
-                                <a class="nav-link" href="#" data-bs-toggle="dropdown">Home</a>
+                                <a class="nav-link" href="#home" >Home</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link" href="#" data-bs-toggle="dropdown">About</a>
+                                <a class="nav-link" href="#about">Tentang</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link" href="#" data-bs-toggle="dropdown">Portfolio</a>
+                                <a class="nav-link" href="#process" >Proses</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link" href="#" data-bs-toggle="dropdown">Partner Kami</a>
+                                <a class="nav-link" href="#portfolio" >Portfolio</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="#proyeksi" >Proyeksi</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="#visi" >Tujuan</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="#partner" >Partner</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="#faq" >FAQ</a>
                             </li>
                             <li class="nav-item dropdown dropdown-mega">
-                                <a class="nav-link" href="#" data-bs-toggle="dropdown">FAQ</a>
+                                <a class="nav-link" href="#hubungi">Hubungi</a>
                                 <!--/.dropdown-menu -->
                             </li>
 
