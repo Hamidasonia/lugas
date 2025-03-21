@@ -73,21 +73,21 @@
                             <li class="nav-item dropdown">
                                 <a class="nav-link" href="#about">Tentang</a>
                             </li>
-                            <li class="nav-item dropdown">
+                            {{-- <li class="nav-item dropdown">
                                 <a class="nav-link" href="#process" >Proses</a>
-                            </li>
+                            </li> --}}
                             <li class="nav-item dropdown">
                                 <a class="nav-link" href="#portfolio" >Portfolio</a>
                             </li>
-                            <li class="nav-item dropdown">
+                            {{-- <li class="nav-item dropdown">
                                 <a class="nav-link" href="#proyeksi" >Proyeksi</a>
-                            </li>
-                            <li class="nav-item dropdown">
+                            </li> --}}
+                            {{-- <li class="nav-item dropdown">
                                 <a class="nav-link" href="#visi" >Tujuan</a>
-                            </li>
-                            <li class="nav-item dropdown">
+                            </li> --}}
+                            {{-- <li class="nav-item dropdown">
                                 <a class="nav-link" href="#partner" >Partner</a>
-                            </li>
+                            </li> --}}
                             <li class="nav-item dropdown">
                                 <a class="nav-link" href="#faq" >FAQ</a>
                             </li>

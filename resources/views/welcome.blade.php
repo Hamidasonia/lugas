@@ -233,6 +233,58 @@
       </div>
       <!--/.row -->
     </div>
+    <div class="container py-12">
+      <div class="text-center">
+        <h2 class="text-uppercase text-muted mb-3">Visi Misi</h2>
+        <h1 class="ls-sm mb-5" style="color: azure;">Kami Perusahaan yang Memiliki Visi dalam Memajukan Peternak Ayam Petelur</h1>
+        <p class="mb-6" style="color: azure;">Visi kami adalah memampukan para peternak ayam petelur untuk bersaing secara nasional, dengan memastikan efisiensi produksi dan keberlanjutan operasional</p>
+        
+        <!--/.row -->
+      </div>
+      <!--/.row -->
+      <div class="row gx-lg-8 gx-xl-12 gy-6 mb-15 mb-md-18">
+        <div class="col-lg-4">
+          <div class="d-flex flex-row">
+            <div>
+              <i class="uil uil-check"></i>
+            </div>
+            <div>
+              <h4 class="fs-20 ls-sm" style="color: azure;">01</h4>
+              <p class="mb-2 " style="color: azure;">Mengembangkan prasarana peternakan untuk mendukung peningkatan produksi yang optimal.</p>
+            </div>
+          </div>
+        </div>
+        <!--/column -->
+        <div class="col-lg-4">
+          <div class="d-flex flex-row">
+            <div>
+              <i class="uil uil-check"></i>
+            </div>
+            <div>
+              <h4 class="fs-20 ls-sm" style="color: azure;">02</h4>
+              <p class="mb-2" style="color: azure;">Menyediakan layanan konsultasi dengan memberikan panduan dalam produksi yang efisien dan terstandar</p>
+            </div>
+          </div>
+        </div>
+        <!--/column -->
+        <div class="col-lg-4">
+          <div class="d-flex flex-row">
+            <div>
+              <i class="uil uil-check"></i>
+            </div>
+            <div>
+              <h4 class="fs-20 ls-sm" style="color: azure;">03</h4>
+              <p class="mb-2" style="color: azure;">Menyediakan layanan manajemen yang memastikan keberlanjutan operasional dengan efisiensi tinggi</p>
+            </div>
+          </div>
+        </div>
+        <!--/column -->
+      </div>
+      <div class="text-center">
+        <h3 style="color: azure;">Kami menerapkan standar tinggi dalam seluruh aspek pembangunan, mempekerjakan tenaga ahli yang profesional, dan menggunakan peralatan modern untuk memastikan hasil yang baik.</h3>
+      </div>
+      <!-- /.row -->
+    </div>
     <!-- /.container -->
   </section>
 
@@ -366,7 +418,7 @@
   </section>
 
   <!-- Section 5 -->
-  <section id="proyeksi" class="wrapper bg-gradient-primary">
+  {{-- <section id="proyeksi" class="wrapper bg-gradient-primary">
     <div class="container pt-10 pt-md-14 pb-8 text-center">
       <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
         <div class="col-lg-7">
@@ -386,10 +438,10 @@
       <!-- /.row -->
     </div>
     <!-- /.container -->
-  </section>
+  </section> --}}
 
   <!-- Section 6 -->
-  <section id="visi" class="wrapper bg-white">
+  {{-- <section id="visi" class="wrapper bg-white">
     <div class="container py-15 py-md-17">
       <div class="text-center">
         <h2 class="text-uppercase text-muted mb-3">Siapa kami?</h2>
@@ -443,7 +495,7 @@
       <!-- /.row -->
     </div>
     <!-- /.container -->
-  </section>
+  </section> --}}
 
   <!-- Section 7 -->
   <section id="partner" class="wrapper bg-light wrapper-border">
@@ -481,11 +533,10 @@
       <div class="row gx-lg-8 gx-xl-12 gy-10">
         <div class="col-lg-6 mb-0">
           <h2 class="fs-15 text-uppercase text-primary mb-3">FAQ</h2>
-          <h3 class="display-5 mb-4">Rekomendasi</h3>
-          <p class="lead mb-6">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem
-            nec elit. Nullam quis risus eget urna mollis ornare.</p>
-          <a href="#" class="btn btn-primary rounded-pill">All FAQ</a>
-        </div>
+          <h3 class="display-5 mb-4">Rekomendasi FAQ</h3>
+          <p class="lead mb-6">Temukan jawaban atas pertanyaan umum yang sering diajukan. Kami menyediakan informasi lengkap untuk membantu Anda memahami layanan kami dengan lebih baik.</p>
+          <a href="#" class="btn btn-primary rounded-pill">Lihat Semua FAQ</a>
+        </div>        
         <!--/column -->
         <div class="col-lg-6">
           <div id="accordion-3" class="accordion-wrapper">
@@ -499,10 +550,7 @@
               <div id="accordion-collapse-3-1" class="collapse" aria-labelledby="accordion-heading-3-1"
                 data-bs-target="#accordion-3">
                 <div class="card-body">
-                  <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
-                    sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna,
-                    vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes,
-                    nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.</p>
+                  <p>Ya, kami juga siap mendampingi dan mengedukasi peternak pemula ataupun peternak yang ingin berkembang untuk membentuk manajemen pemeliharaan yang optimal serta efisien.</p>
                 </div>
                 <!-- /.card-body -->
               </div>
@@ -519,10 +567,7 @@
               <div id="accordion-collapse-3-2" class="collapse" aria-labelledby="accordion-heading-3-2"
                 data-bs-target="#accordion-3">
                 <div class="card-body">
-                  <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
-                    sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna,
-                    vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes,
-                    nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.</p>
+                  <p>Lugas memiliki tim mekanik elektrikal internal serta tim pembangunan yang terlatih serta siap merespon secara cepat bila terjadi kendala serta suku cadang yang mudah didapatkan sebagai komitmen “after sale” kami kepada pelanggan. Kami pun memiliki support tim expert dalam manajemen peternakan, sehingga ketika kami menjual, kami pun berkomitmen pembeli akan mendapat hasil yang optimal dengan produk yang dibeli dan dengan biaya yang terjangkau.</p>
                 </div>
                 <!-- /.card-body -->
               </div>
@@ -539,10 +584,7 @@
               <div id="accordion-collapse-3-3" class="collapse" aria-labelledby="accordion-heading-3-3"
                 data-bs-target="#accordion-3">
                 <div class="card-body">
-                  <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
-                    sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna,
-                    vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes,
-                    nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.</p>
+                  <p>Kami dapat menjual perlatan kandang secara terpisah sesuai dengan kebutuhan dari konsumen</p>
                 </div>
                 <!-- /.card-body -->
               </div>
@@ -559,16 +601,73 @@
               <div id="accordion-collapse-3-4" class="collapse" aria-labelledby="accordion-heading-3-4"
                 data-bs-target="#accordion-3">
                 <div class="card-body">
-                  <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
-                    sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna,
-                    vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes,
-                    nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.</p>
+                  <p>Ya, kami bisa membantu membangun bisnis peternakan ayam mulai dari 0. Berdasarkan pengalaman yang kami punya, kami siap untuk mendampingi dan mengedukasi setiap orang yang mau memulai bisnis peternakan dapat memulai dan terus berjalan menjadi ekosistem bisnis yang baik dan terus bertumbuh.</p>
                 </div>
                 <!-- /.card-body -->
               </div>
               <!-- /.collapse -->
             </div>
             <!-- /.card -->
+            <div class="card accordion-item">
+              <div class="card-header" id="accordion-heading-3-5">
+                <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-3-5"
+                  aria-expanded="false" aria-controls="accordion-collapse-3-5">Apakah LUGAS dapat membantu mengembangkan bisnis yang sudah berjalan?</button>
+              </div>
+              <!-- /.card-header -->
+              <div id="accordion-collapse-3-5" class="collapse" aria-labelledby="accordion-heading-3-5"
+                data-bs-target="#accordion-3">
+                <div class="card-body">
+                  <p>Ya, kami dapat mendampingi dan mengedukasi peternakan yang sudah berjalan untuk memiliki managemen yang terstandar sehingga peternakan akan terus berkembang dan bertahan dalam setiap fluktuasi iklim bisnis peternakan.</p>
+                </div>
+                <!-- /.card-body -->
+              </div>
+              <!-- /.collapse -->
+            </div>
+            <div class="card accordion-item">
+              <div class="card-header" id="accordion-heading-3-6">
+                <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-3-6"
+                  aria-expanded="false" aria-controls="accordion-collapse-3-6">Jaminan apa yang LUGAS berikan selama pengerjaan dan pasca proyek?</button>
+              </div>
+              <!-- /.card-header -->
+              <div id="accordion-collapse-3-6" class="collapse" aria-labelledby="accordion-heading-3-6"
+                data-bs-target="#accordion-3">
+                <div class="card-body">
+                  <p>Lugas akan memberikan edukasi kepada pembeli dalam optimalisasi penggunaan alat yang dibeli sehingga dapat memberikan hasil yang optimal, serta pelayanan “after sale” kami secara mekanik elektrikal akan siap sedia untuk melakukan pemeliharaan alat sehingga dapat selalu berfungsi optimal.</p>
+                </div>
+                <!-- /.card-body -->
+              </div>
+              <!-- /.collapse -->
+            </div>
+            <div class="card accordion-item">
+              <div class="card-header" id="accordion-heading-3-7">
+                <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-3-7"
+                  aria-expanded="false" aria-controls="accordion-collapse-3-7">Apakah LUGAS merupakan kontraktor pembangunan kandang ayam petelur?</button>
+              </div>
+              <!-- /.card-header -->
+              <div id="accordion-collapse-3-7" class="collapse" aria-labelledby="accordion-heading-3-7"
+                data-bs-target="#accordion-3">
+                <div class="card-body">
+                  <p>Ya, Lugas juga dapat merancang dan membangunkan kandang sesuai dengan kebutuhan dari konsumen</p>
+                </div>
+                <!-- /.card-body -->
+              </div>
+              <!-- /.collapse -->
+            </div>
+            <div class="card accordion-item">
+              <div class="card-header" id="accordion-heading-3-8">
+                <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-3-8"
+                  aria-expanded="false" aria-controls="accordion-collapse-3-8">Apakah LUGAS dapat mengerjakan pembuatan kandang hewan ternak lain selain kandang ayam petelur?</button>
+              </div>
+              <!-- /.card-header -->
+              <div id="accordion-collapse-3-8" class="collapse" aria-labelledby="accordion-heading-3-8"
+                data-bs-target="#accordion-3">
+                <div class="card-body">
+                  <p>Ya, Lugas melayani juga untuk pembuatan kandang ternak lain seperti ayam pedaging, babi, dll.</p>
+                </div>
+                <!-- /.card-body -->
+              </div>
+              <!-- /.collapse -->
+            </div>
           </div>
           <!-- /.accordion-wrapper -->
         </div>
