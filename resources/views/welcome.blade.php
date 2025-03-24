@@ -181,112 +181,79 @@
 
   <!-- Section 2 -->
   <section id="about" class="wrapper position-relative min-vh-60 d-lg-flex align-items-center" style="background-color: #0D1E41">
-    <div class="col-lg-6 position-lg-absolute top-0 start-0 image-wrapper bg-image bg-cover h-100" data-cue="slideInLeft" data-image-src="{{ asset('img/photos/farmer.jpg') }}">
-      <div class="divider divider-v-end d-none d-lg-block" style="color:#0D1E41">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54 1200">
-          <g />
-          <g>
-            <g>
-              <polygon fill="currentColor" points="48 0 0 0 48 1200 54 1200 54 0 48 0" />
-            </g>
-          </g>
-        </svg>
+      <div class="col-lg-6 position-lg-absolute top-0 start-0 image-wrapper bg-image bg-cover h-100" data-cue="slideInLeft" data-image-src="{{ asset('img/photos/farmer.jpg') }}">
+        <div class="divider divider-v-end d-none d-lg-block" style="color:#0D1E41">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54 1200">
+            <polygon fill="currentColor" points="48 0 0 0 48 1200 54 1200 54 0 48 0" />
+          </svg>
+        </div>
       </div>
-    </div>
-    <!--/column -->
-    <div class="container">
-      <div class="row gx-0">
-        <div class="col-lg-6 ms-auto">
-          <div class="pt-13 pb-15 pb-md-17 py-lg-16 ps-lg-15 pe-xxl-16">
-            <h2 class="fs-15 text-uppercase text-muted mb-3" data-cue="slideInLeft">Apa yang Kami Kerjakan?</h2>
-            <h3 class="display-3 ls-sm mb-7" style="color: #DC5800" data-cue="slideInLeft">Konsultasikan Kebutuhan Anda Seputar Bisnis Ayam Petelur dari Hulu Hingga Hilir Kepada Kami</h3>
-            <div class="d-flex flex-row mb-5">
-              <div>
+      <div class="container">
+        <div class="row gx-0">
+          <div class="col-lg-6 ms-auto">
+            <div class="pt-13 pb-15 pb-md-17 py-lg-16 ps-lg-15 pe-xxl-16">
+              <h2 class="fs-15 text-uppercase text-muted mb-3" data-cue="slideInLeft">Apa yang Kami Kerjakan?</h2>
+              <h3 class="display-3 ls-sm mb-7" style="color: #DC5800" data-cue="slideInLeft">Konsultasikan Kebutuhan Anda Seputar Bisnis Ayam Petelur dari Hulu Hingga Hilir Kepada Kami</h3>
+              
+              <div class="d-flex flex-row mb-5">
                 <img src="{{ asset('img/icons/lineal/light-bulb.svg') }}" class="svg-inject icon-svg icon-svg-md text-orange me-5 mt-1" alt="" />
+                <div>
+                  <h4 class="fs-20 ls-sm" style="color: #ffffff" data-cue="slideInLeft">Konsultasi Bisnis Ayam Petelur</h4>
+                  <p class="mb-0" style="color: #ffffff" data-cue="slideInLeft">Nulla vitae elit libero pharetra augue dapibus. Praesent commodo cursus.</p>
+                </div>
               </div>
-              <div>
-                <h4 class="fs-20 ls-sm" style="color: #ffffff" data-cue="slideInLeft">Konsultasi Bisnis Ayam Petelur</h4>
-                <p class="mb-0" style="color: #ffffff" data-cue="slideInLeft">Nulla vitae elit libero pharetra augue dapibus. Praesent commodo cursus.</p>
-              </div>
-            </div>
-            <div class="d-flex flex-row mb-5">
-              <div>
+              
+              <div class="d-flex flex-row mb-5">
                 <img src="{{ asset('img/icons/lineal/pie-chart-2.svg') }}" class="svg-inject icon-svg icon-svg-md text-orange me-5 mt-1" alt="" />
+                <div>
+                  <h4 class="fs-20 ls-sm" style="color: #ffffff" data-cue="slideInLeft">Pembuatan Kandang dan Penyediaan Alat</h4>
+                  <p class="mb-0" style="color: #ffffff" data-cue="slideInLeft">Vivamus sagittis lacus vel augue laoreet. Etiam porta sem malesuada magna.</p>
+                </div>
               </div>
-              <div>
-                <h4 class="fs-20 ls-sm" style="color: #ffffff" data-cue="slideInLeft">Pembuatan Kandang dan Penyediaan Alat</h4>
-                <p class="mb-0" style="color: #ffffff" data-cue="slideInLeft">Vivamus sagittis lacus vel augue laoreet. Etiam porta sem malesuada magna.</p>
-              </div>
-            </div>
-            <div class="d-flex flex-row">
-              <div>
+              
+              <div class="d-flex flex-row mb-5">
                 <img src="{{ asset('img/icons/lineal/design.svg') }}" class="svg-inject icon-svg icon-svg-md text-orange me-5 mt-1" alt="" />
+                <div>
+                  <h4 class="fs-20 ls-sm" style="color: #ffffff" data-cue="slideInLeft">Manajemen Kandang Ayam Petelur</h4>
+                  <p class="mb-0" style="color: #ffffff" data-cue="slideInLeft">Cras mattis consectetur purus sit amet. Aenean lacinia bibendum nulla sed.</p>
+                </div>
               </div>
+              
               <div>
-                <h4 class="fs-20 ls-sm" style="color: #ffffff" data-cue="slideInLeft">Manajemen Kandang Ayam Petelur</h4>
-                <p class="mb-0" style="color: #ffffff" data-cue="slideInLeft">Cras mattis consectetur purus sit amet. Aenean lacinia bibendum nulla sed.</p>
-              </div>
+          <h2 class="fs-15 text-uppercase text-muted mb-3" data-cue="slideInLeft">Visi Misi</h2>
+          <h1 class="ls-sm mb-5" style="color: azure;">Kami Perusahaan yang Memiliki Visi dalam Memajukan Peternak Ayam Petelur</h1>
+          <p class="mb-6" style="color: azure;">Visi kami adalah memampukan para peternak ayam petelur untuk bersaing secara nasional, dengan memastikan efisiensi produksi dan keberlanjutan operasional.</p>
+        </div>
+    
+        <div class="d-flex flex-column align-items-start mb-15 mb-md-18">
+          <div class="d-flex flex-row mb-3">
+            <i class="uil uil-check me-3" style="color: azure;"></i>
+            <p class="mb-0" style="color: azure;"><strong>01.</strong> Mengembangkan prasarana peternakan untuk mendukung peningkatan produksi yang optimal.</p>
+          </div>
+          <div class="d-flex flex-row mb-3">
+            <i class="uil uil-check me-3" style="color: azure;"></i>
+            <p class="mb-0" style="color: azure;"><strong>02.</strong> Menyediakan layanan konsultasi dengan memberikan panduan dalam produksi yang efisien dan terstandar.</p>
+          </div>
+          <div class="d-flex flex-row">
+            <i class="uil uil-check me-3" style="color: azure;"></i>
+            <p class="mb-0" style="color: azure;"><strong>03.</strong> Menyediakan layanan manajemen yang memastikan keberlanjutan operasional dengan efisiensi tinggi.</p>
+          </div>
+        </div>
+    
+        <div>
+          <h3 style="color: azure;">Kami menerapkan standar tinggi dalam seluruh aspek pembangunan, mempekerjakan tenaga ahli yang profesional, dan menggunakan peralatan modern untuk memastikan hasil yang baik.</h3>
+        </div>
             </div>
           </div>
         </div>
-        <!--/column -->
       </div>
-      <!--/.row -->
-    </div>
-    <div class="container py-12">
-      <div class="text-center">
-        <h2 class="text-uppercase text-muted mb-3">Visi Misi</h2>
-        <h1 class="ls-sm mb-5" style="color: azure;">Kami Perusahaan yang Memiliki Visi dalam Memajukan Peternak Ayam Petelur</h1>
-        <p class="mb-6" style="color: azure;">Visi kami adalah memampukan para peternak ayam petelur untuk bersaing secara nasional, dengan memastikan efisiensi produksi dan keberlanjutan operasional</p>
+    
+      <!-- Visi Misi Section -->
+      <!--<div class="container py-12">-->
         
-        <!--/.row -->
-      </div>
-      <!--/.row -->
-      <div class="row gx-lg-8 gx-xl-12 gy-6 mb-15 mb-md-18">
-        <div class="col-lg-4">
-          <div class="d-flex flex-row">
-            <div>
-              <i class="uil uil-check"></i>
-            </div>
-            <div>
-              <h4 class="fs-20 ls-sm" style="color: azure;">01</h4>
-              <p class="mb-2 " style="color: azure;">Mengembangkan prasarana peternakan untuk mendukung peningkatan produksi yang optimal.</p>
-            </div>
-          </div>
-        </div>
-        <!--/column -->
-        <div class="col-lg-4">
-          <div class="d-flex flex-row">
-            <div>
-              <i class="uil uil-check"></i>
-            </div>
-            <div>
-              <h4 class="fs-20 ls-sm" style="color: azure;">02</h4>
-              <p class="mb-2" style="color: azure;">Menyediakan layanan konsultasi dengan memberikan panduan dalam produksi yang efisien dan terstandar</p>
-            </div>
-          </div>
-        </div>
-        <!--/column -->
-        <div class="col-lg-4">
-          <div class="d-flex flex-row">
-            <div>
-              <i class="uil uil-check"></i>
-            </div>
-            <div>
-              <h4 class="fs-20 ls-sm" style="color: azure;">03</h4>
-              <p class="mb-2" style="color: azure;">Menyediakan layanan manajemen yang memastikan keberlanjutan operasional dengan efisiensi tinggi</p>
-            </div>
-          </div>
-        </div>
-        <!--/column -->
-      </div>
-      <div class="text-center">
-        <h3 style="color: azure;">Kami menerapkan standar tinggi dalam seluruh aspek pembangunan, mempekerjakan tenaga ahli yang profesional, dan menggunakan peralatan modern untuk memastikan hasil yang baik.</h3>
-      </div>
-      <!-- /.row -->
-    </div>
-    <!-- /.container -->
-  </section>
+      <!--</div>-->
+    </section>
+
 
   <!-- Section 3 -->
   <section id="process" class="wrapper bg-light">
