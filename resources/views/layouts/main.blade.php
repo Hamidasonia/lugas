@@ -20,6 +20,10 @@
     <link rel="shortcut icon" href="{{ asset('img/favicon-lugas.png') }}">
     <link rel="stylesheet" href="{{ asset('css/plugins.css') }}">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;700&family=Inter:wght@300;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
 
     <!-- Added Style Rule -->
     <style>
@@ -66,28 +70,31 @@
                     <div class="offcanvas-body ms-lg-auto d-flex flex-column h-100">
                         <ul class="navbar-nav">
                             <li class="nav-item dropdown dropdown-mega">
-                                <a class="nav-link" href="#home" data-bs-toggle="dropdown">Home</a>
+                                <a class="nav-link" href="#home" >Home</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link" href="#about" data-bs-toggle="dropdown">Tentang</a>
+                                <a class="nav-link" href="#about">Tentang</a>
                             </li>
+                            {{-- <li class="nav-item dropdown">
+                                <a class="nav-link" href="#process" >Proses</a>
+                            </li> --}}
                             <li class="nav-item dropdown">
-                                <a class="nav-link" href="#process" data-bs-toggle="dropdown">Proses</a>
+                                <a class="nav-link" href="#portfolio" >Portfolio</a>
                             </li>
+                            {{-- <li class="nav-item dropdown">
+                                <a class="nav-link" href="#proyeksi" >Proyeksi</a>
+                            </li> --}}
+                            {{-- <li class="nav-item dropdown">
+                                <a class="nav-link" href="#visi" >Tujuan</a>
+                            </li> --}}
+                            {{-- <li class="nav-item dropdown">
+                                <a class="nav-link" href="#partner" >Partner</a>
+                            </li> --}}
                             <li class="nav-item dropdown">
-                                <a class="nav-link" href="#portfolio" data-bs-toggle="dropdown">Portfolio</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link" href="#proyeksi" data-bs-toggle="dropdown">Proyeksi</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link" href="#visi" data-bs-toggle="dropdown">Tujuan</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link" href="#partner" data-bs-toggle="dropdown">Partner</a>
+                                <a class="nav-link" href="#faq" >FAQ</a>
                             </li>
                             <li class="nav-item dropdown dropdown-mega">
-                                <a class="nav-link" href="#" data-bs-toggle="dropdown">FAQ</a>
+                                <a class="nav-link" href="#hubungi">Hubungi</a>
                                 <!--/.dropdown-menu -->
                             </li>
 
@@ -150,13 +157,13 @@
                         <p class="mb-4">© <script>
                                 document.write(new Date().getUTCFullYear());
                             </script> Lugas. All rights reserved.</p>
-                        <nav class="nav social social-white">
+                        {{-- <nav class="nav social social-white">
                             <a href="#"><i class="uil uil-twitter"></i></a>
                             <a href="#"><i class="uil uil-facebook-f"></i></a>
                             <a href="#"><i class="uil uil-dribbble"></i></a>
                             <a href="#"><i class="uil uil-instagram"></i></a>
                             <a href="#"><i class="uil uil-youtube"></i></a>
-                        </nav>
+                        </nav> --}}
                         <!-- /.social -->
                     </div>
                     <!-- /.widget -->
@@ -166,6 +173,7 @@
                     <div class="widget">
                         <h4 class="widget-title mb-3 text-white">Butuh Bantuan?</h4>
                         <ul class="list-unstyled mb-0">
+                            <li><a href="mailto:cvsolusiunggasindo@gmail.com">Email Kami</a></li>
                             <li><a href="#">Support</a></li>
                             <li><a href="#">Mulai</a></li>
                             <li><a href="#">Terms of Use</a></li>
@@ -190,23 +198,6 @@
     <!-- Main Script -->
     <script src="{{ asset('js/plugins.js') }}"></script>
     <script src="{{ asset('js/theme.js') }}"></script>
-    <script>
-        document.querySelectorAll('a.nav-link[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-        const targetId = this.getAttribute('href').substring(1); // Menghapus '#' dari href
-        const targetSection = document.getElementById(targetId);
-
-        if (targetSection) {
-            targetSection.scrollIntoView({
-                behavior: 'smooth',
-                block: 'start',
-            });
-        }
-    });
-});
-
-    </script>
 </body>
 
 </html>
