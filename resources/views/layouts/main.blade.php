@@ -22,6 +22,8 @@
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;700&family=Inter:wght@300;500&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
 
     <!-- Added Style Rule -->
     <style>
@@ -171,6 +173,7 @@
                     <div class="widget">
                         <h4 class="widget-title mb-3 text-white">Butuh Bantuan?</h4>
                         <ul class="list-unstyled mb-0">
+                            <li><a href="mailto:cvsolusiunggasindo@gmail.com">Email Kami</a></li>
                             <li><a href="#">Support</a></li>
                             <li><a href="#">Mulai</a></li>
                             <li><a href="#">Terms of Use</a></li>

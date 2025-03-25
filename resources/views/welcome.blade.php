@@ -3,14 +3,14 @@
 @section('content')
 
   <!-- Video Opening -->
-  <section class="video-wrapper bg-overlay bg-overlay-gradient px-0 mt-0 min-vh-100">
+  {{-- <section class="video-wrapper bg-overlay bg-overlay-gradient px-0 mt-0 min-vh-100">
     <video poster="{{ asset('img/photos/flock-chickens-fence.jpg') }}" src="{{ asset('media/chicken-video.mp4') }}" autoplay loop playsinline muted></video>
     <div class="video-content">
       <div class="container text-center">
         <div class="row">
           <div class="col-lg-8 col-xl-6 text-center text-white mx-auto">
-            <h1 class="display-1 fs-54 text-white mb-5"><span class="rotator-zoom">Selamat Datang,di LUGAS,CV. SOLUSI UNGGASINDO</span></h1>
-            <p class="lead fs-24 mb-0 mx-xxl-8">LUGAS adalah konsultan pembangunan dan manajemen kandang ayam petelur Indonesia yang mengedepankan efisiensi dalam produksi</p>
+            <h1 class="display-1 fs-54 text-white mb-5"><span class="rotator-zoom">Selamat Datang</span></h1>
+            <p class="lead fs-24 mb-0 mx-xxl-8">LUGAS adalah konsultan pembangunan dan manajemen kandang Indonesia yang mengedepankan efisiensi dalam produksi</p>
           </div>
           <!-- /column -->
         </div>
@@ -18,6 +18,108 @@
       <!-- /.video-content -->
     </div>
     <!-- /.content-overlay -->
+  </section> --}}
+
+  <section class="wrapper bg-dark">
+    <div class="swiper-container swiper-hero dots-over" data-margin="0" data-autoplay="true" data-autoplaytime="7000" data-nav="true" data-dots="true" data-items="1">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide bg-overlay bg-overlay-400 bg-dark bg-image" data-image-src="{{ asset('img/slide-0.png') }}">
+            <div class="container h-100">
+              <div class="row h-100">
+                <div class="col-md-11 col-lg-8 col-xl-7 col-xxl-6 mx-auto text-center justify-content-center align-self-center">
+                  <h1 class="display-1 fs-56 mb-4 text-white animate__animated animate__slideInDown animate__delay-1s">Selamat Datang</h1>
+                  <p class="lead fs-23 lh-sm mb-7 text-white animate__animated animate__slideInRight animate__delay-2s">LUGAS adalah konsultan pembangunan dan manajemen kandang Indonesia yang mengedepankan efisiensi dalam produksi</p>
+                  {{-- <div class="animate__animated animate__slideInUp animate__delay-3s"><a href="./assets/media/movie.mp4" class="btn btn-circle btn-white btn-play ripple mx-auto mb-5" data-glightbox><i class="icn-caret-right"></i></a></div> --}}
+                </div>
+                <!--/column -->
+              </div>
+              <!--/.row -->
+            </div>
+            <!--/.container -->
+          </div>
+          <!--/.swiper-slide -->
+          <div class="swiper-slide bg-overlay bg-overlay-400 bg-dark bg-image" data-image-src="{{ asset('img/slide-1.png') }}">
+            <div class="container h-100">
+              <div class="row h-100">
+                <div class="col-md-11 col-lg-8 col-xl-7 col-xxl-6 mx-auto text-center justify-content-center align-self-center">
+                  <h1 class="display-1 fs-56 mb-4 text-white animate__animated animate__slideInDown animate__delay-1s">Selamat Datang</h1>
+                  <p class="lead fs-23 lh-sm mb-7 text-white animate__animated animate__slideInRight animate__delay-2s">LUGAS adalah konsultan pembangunan dan manajemen kandang Indonesia yang mengedepankan efisiensi dalam produksi</p>
+                  {{-- <div class="animate__animated animate__slideInUp animate__delay-3s"><a href="./assets/media/movie.mp4" class="btn btn-circle btn-white btn-play ripple mx-auto mb-5" data-glightbox><i class="icn-caret-right"></i></a></div> --}}
+                </div>
+                <!--/column -->
+              </div>
+              <!--/.row -->
+            </div>
+            <!--/.container -->
+          </div>
+          <!--/.swiper-slide -->
+          <div class="swiper-slide bg-overlay bg-overlay-400 bg-dark bg-image" data-image-src="{{ asset('img/slide-2.png') }}">
+            <div class="container h-100">
+              <div class="row h-100">
+                <div class="col-md-11 col-lg-8 col-xl-7 col-xxl-6 mx-auto text-center justify-content-center align-self-center">
+                  <h1 class="display-1 fs-56 mb-4 text-white animate__animated animate__slideInDown animate__delay-1s">Selamat Datang</h1>
+                  <p class="lead fs-23 lh-sm mb-7 text-white animate__animated animate__slideInRight animate__delay-2s">LUGAS adalah konsultan pembangunan dan manajemen kandang Indonesia yang mengedepankan efisiensi dalam produksi</p>
+                  {{-- <div class="animate__animated animate__slideInUp animate__delay-3s"><a href="./assets/media/movie.mp4" class="btn btn-circle btn-white btn-play ripple mx-auto mb-5" data-glightbox><i class="icn-caret-right"></i></a></div> --}}
+                </div>
+                <!--/column -->
+              </div>
+              <!--/.row -->
+            </div>
+            <!--/.container -->
+          </div>
+          <!--/.swiper-slide -->
+          <div class="swiper-slide bg-overlay bg-overlay-400 bg-dark bg-image" data-image-src="{{ asset('img/slide-3.png') }}">
+            <div class="container h-100">
+              <div class="row h-100">
+                <div class="col-md-11 col-lg-8 col-xl-7 col-xxl-6 mx-auto text-center justify-content-center align-self-center">
+                  <h1 class="display-1 fs-56 mb-4 text-white animate__animated animate__slideInDown animate__delay-1s">Selamat Datang</h1>
+                  <p class="lead fs-23 lh-sm mb-7 text-white animate__animated animate__slideInRight animate__delay-2s">LUGAS adalah konsultan pembangunan dan manajemen kandang Indonesia yang mengedepankan efisiensi dalam produksi</p>
+                  {{-- <div class="animate__animated animate__slideInUp animate__delay-3s"><a href="./assets/media/movie.mp4" class="btn btn-circle btn-white btn-play ripple mx-auto mb-5" data-glightbox><i class="icn-caret-right"></i></a></div> --}}
+                </div>
+                <!--/column -->
+              </div>
+              <!--/.row -->
+            </div>
+            <!--/.container -->
+          </div>
+          <!--/.swiper-slide -->
+          <div class="swiper-slide bg-overlay bg-overlay-400 bg-dark bg-image" data-image-src="{{ asset('img/slide-4.png') }}">
+            <div class="container h-100">
+              <div class="row h-100">
+                <div class="col-md-11 col-lg-8 col-xl-7 col-xxl-6 mx-auto text-center justify-content-center align-self-center">
+                  <h1 class="display-1 fs-56 mb-4 text-white animate__animated animate__slideInDown animate__delay-1s">Selamat Datang</h1>
+                  <p class="lead fs-23 lh-sm mb-7 text-white animate__animated animate__slideInRight animate__delay-2s">LUGAS adalah konsultan pembangunan dan manajemen kandang Indonesia yang mengedepankan efisiensi dalam produksi</p>
+                  {{-- <div class="animate__animated animate__slideInUp animate__delay-3s"><a href="./assets/media/movie.mp4" class="btn btn-circle btn-white btn-play ripple mx-auto mb-5" data-glightbox><i class="icn-caret-right"></i></a></div> --}}
+                </div>
+                <!--/column -->
+              </div>
+              <!--/.row -->
+            </div>
+            <!--/.container -->
+          </div>
+          <!--/.swiper-slide -->
+          <div class="swiper-slide bg-overlay bg-overlay-400 bg-dark bg-image" data-image-src="{{ asset('img/slide-5.png') }}">
+            <div class="container h-100">
+              <div class="row h-100">
+                <div class="col-md-11 col-lg-8 col-xl-7 col-xxl-6 mx-auto text-center justify-content-center align-self-center">
+                  <h1 class="display-1 fs-56 mb-4 text-white animate__animated animate__slideInDown animate__delay-1s">Selamat Datang</h1>
+                  <p class="lead fs-23 lh-sm mb-7 text-white animate__animated animate__slideInRight animate__delay-2s">LUGAS adalah konsultan pembangunan dan manajemen kandang Indonesia yang mengedepankan efisiensi dalam produksi</p>
+                  {{-- <div class="animate__animated animate__slideInUp animate__delay-3s"><a href="./assets/media/movie.mp4" class="btn btn-circle btn-white btn-play ripple mx-auto mb-5" data-glightbox><i class="icn-caret-right"></i></a></div> --}}
+                </div>
+                <!--/column -->
+              </div>
+              <!--/.row -->
+            </div>
+            <!--/.container -->
+          </div>
+          <!--/.swiper-slide -->
+        </div>
+        <!--/.swiper-wrapper -->
+      </div>
+      <!-- /.swiper -->
+    </div>
+    <!-- /.swiper-container -->
   </section>
 
   <!-- Section 1 -->
@@ -30,16 +132,16 @@
           <div class="row gx-md-5 gy-5 position-relative">
             <div class="col-6">
               <img class="img-fluid rounded shadow-lg mb-5" data-cue="fadeIn" data-delay="300"
-                src="{{ asset('img/photos/flock-chickens-fence.jpg') }}" alt="" />
+                src="{{ asset('img/kandang-1.png') }}" alt="" />
               <img class="img-fluid rounded shadow-lg d-flex col-10 ms-auto" data-cue="fadeIn" data-delay="600"
-                src="{{ asset('img/photos/flock-chickens-fence.jpg') }}" alt="" />
+                src="{{ asset('img/kandang-2.png') }}" alt="" />
             </div>
             <!-- /column -->
             <div class="col-6">
               <img class="img-fluid rounded shadow-lg my-5" data-cue="fadeIn" data-delay="900"
-                src="{{ asset('img/photos/hens-factory-chicken-cages.jpg') }}" alt="" />
+                src="{{ asset('img/kandang-3.png') }}" alt="" />
               <img class="img-fluid rounded shadow-lg d-flex col-10" data-cue="fadeIn" data-delay="1200"
-                src="{{ asset('img/photos/hens-factory-chicken-cages.jpg') }}" alt="" />
+                src="{{ asset('img/kandang-1.png') }}" alt="" />
             </div>
             <!-- /column -->
           </div>
@@ -181,7 +283,7 @@
 
   <!-- Section 2 -->
   <section id="about" class="wrapper position-relative min-vh-60 d-lg-flex align-items-center" style="background-color: #0D1E41">
-      <div class="col-lg-6 position-lg-absolute top-0 start-0 image-wrapper bg-image bg-cover h-100" data-cue="slideInLeft" data-image-src="{{ asset('img/photos/farmer.jpg') }}">
+      <div class="col-lg-6 position-lg-absolute top-0 start-0 image-wrapper bg-image bg-cover h-100" data-cue="slideInLeft" data-image-src="{{ asset('img/pembangunan-kandang.png') }}">
         <div class="divider divider-v-end d-none d-lg-block" style="color:#0D1E41">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54 1200">
             <polygon fill="currentColor" points="48 0 0 0 48 1200 54 1200 54 0 48 0" />
@@ -199,7 +301,7 @@
                 <img src="{{ asset('img/icons/lineal/light-bulb.svg') }}" class="svg-inject icon-svg icon-svg-md text-orange me-5 mt-1" alt="" />
                 <div>
                   <h4 class="fs-20 ls-sm" style="color: #ffffff" data-cue="slideInLeft">Konsultasi Bisnis Ayam Petelur</h4>
-                  <p class="mb-0" style="color: #ffffff" data-cue="slideInLeft">Nulla vitae elit libero pharetra augue dapibus. Praesent commodo cursus.</p>
+                  <p class="mb-0" style="color: #ffffff" data-cue="slideInLeft">Dapatkan panduan ahli dalam manajemen pakan, kesehatan ternak, strategi pemasaran, dan analisis keuntungan. Optimalkan produksi dan raih keuntungan maksimal dengan efisien.</p>
                 </div>
               </div>
               
@@ -207,15 +309,15 @@
                 <img src="{{ asset('img/icons/lineal/pie-chart-2.svg') }}" class="svg-inject icon-svg icon-svg-md text-orange me-5 mt-1" alt="" />
                 <div>
                   <h4 class="fs-20 ls-sm" style="color: #ffffff" data-cue="slideInLeft">Pembuatan Kandang dan Penyediaan Alat</h4>
-                  <p class="mb-0" style="color: #ffffff" data-cue="slideInLeft">Vivamus sagittis lacus vel augue laoreet. Etiam porta sem malesuada magna.</p>
+                  <p class="mb-0" style="color: #ffffff" data-cue="slideInLeft">Kami menyediakan layanan pembuatan kandang yang efisien dan sesuai standar, serta penyediaan alat-alat peternakan berkualitas. Pastikan ayam petelur Anda tumbuh optimal dengan fasilitas terbaik.</p>
                 </div>
               </div>
               
               <div class="d-flex flex-row mb-5">
                 <img src="{{ asset('img/icons/lineal/design.svg') }}" class="svg-inject icon-svg icon-svg-md text-orange me-5 mt-1" alt="" />
                 <div>
-                  <h4 class="fs-20 ls-sm" style="color: #ffffff" data-cue="slideInLeft">Manajemen Kandang Ayam Petelur</h4>
-                  <p class="mb-0" style="color: #ffffff" data-cue="slideInLeft">Cras mattis consectetur purus sit amet. Aenean lacinia bibendum nulla sed.</p>
+                  <h4 class="fs-20 ls-sm" style="color: #ffffff" data-cue="slideInLeft">Manajemen Kandang</h4>
+                  <p class="mb-0" style="color: #ffffff" data-cue="slideInLeft">Dengan manajemen kandang yang tepat, kami membantu dalam pengaturan ventilasi, kebersihan, pencahayaan, serta sistem pakan dan minum untuk memastikan kesehatan dan hasil produksi terbaik. Selain itu, kami juga menyediakan pelatihan SDM agar tim Anda siap dan terampil dalam mengelola kandang, meningkatkan efisiensi, dan menjaga kualitas produksi.</p>
                 </div>
               </div>
               
@@ -291,97 +393,75 @@
   <!-- Section 4 -->
   <section id="portfolio" class="wrapper bg-light wrapper-border">
     <div class="container pt-15 pt-md-17 pb-13 pb-md-15">
-      <div class="row text-center">
-        <div class="col-lg-10 col-xl-7 col-xxl-6 mx-auto">
-          <h2 class="fs-15 text-uppercase text-muted mb-3" data-cue="fadeIn">Portfolio</h2>
-          <h3 class="display-3 ls-sm mb-10" data-cue="fadeIn">Project Sukses Kami Dalam Membangun Kandang</h3>
+        <div class="row text-center">
+            <div class="col-lg-10 col-xl-7 col-xxl-6 mx-auto">
+                <h2 class="fs-15 text-uppercase text-muted mb-3" data-cue="fadeIn">Portfolio</h2>
+                <h3 class="display-3 ls-sm mb-10" data-cue="fadeIn">Project Sukses Kami Dalam Membangun Kandang</h3>
+            </div>
         </div>
-        <!-- /column -->
-      </div>
-      <div class="swiper-container blog grid-view mb-6" data-margin="30" data-dots="true" data-items-xl="3"
-        data-items-md="2" data-items-xs="1">
-        <div class="swiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <article>
-                <figure class="overlay overlay-1 hover-scale rounded mb-5"><a href="#"> <img
-                      src="{{ asset('img/photos/kandang.jpg') }}" alt="" /></a>
-                  <figcaption>
-                    <h5 class="from-top mb-0">Read More</h5>
-                  </figcaption>
-                </figure>
-                <div class="post-header">
-                  <div class="post-category text-line">
-                    <a href="#" class="hover" rel="category">Kandang</a>
-                  </div>
+
+        <div class="swiper-container blog grid-view mb-6" data-margin="30" data-dots="true" data-items-xl="3" data-nav="true" data-items-md="2" data-items-xs="1">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <!-- Slide 1 -->
+                    <div class="swiper-slide">
+                        <article>
+                            <figure class="overlay overlay-1 hover-scale rounded mb-5">
+                                <a href="{{ asset('img/portfolio-1.png') }}" data-fancybox="gallery" data-caption="Portfolio Pembangunan">
+                                    <img src="{{ asset('img/portfolio-1.png') }}" alt="Portfolio Pembangunan" />
+                                </a>
+                                <figcaption>
+                                    <h5 class="from-top mb-0">Lebih Lanjut</h5>
+                                </figcaption>
+                            </figure>
+                        </article>
+                    </div>
+                    
+                    <!-- Slide 2 -->
+                    <div class="swiper-slide">
+                        <article>
+                            <figure class="overlay overlay-1 hover-scale rounded mb-5">
+                                <a href="{{ asset('img/portfolio-2.png') }}" data-fancybox="gallery" data-caption="Portfolio Pembangunan">
+                                    <img src="{{ asset('img/portfolio-2.png') }}" alt="Portfolio Pembangunan" />
+                                </a>
+                                <figcaption>
+                                    <h5 class="from-top mb-0">Lebih Lanjut</h5>
+                                </figcaption>
+                            </figure>
+                        </article>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="swiper-slide">
+                        <article>
+                            <figure class="overlay overlay-1 hover-scale rounded mb-5">
+                                <a href="{{ asset('img/portfolio-3.png') }}" data-fancybox="gallery" data-caption="Portfolio Pembangunan">
+                                    <img src="{{ asset('img/portfolio-3.png') }}" alt="Portfolio Pembangunan" />
+                                </a>
+                                <figcaption>
+                                    <h5 class="from-top mb-0">Lebih Lanjut</h5>
+                                </figcaption>
+                            </figure>
+                        </article>
+                    </div>
+
+                    <!-- Slide 4 -->
+                    <div class="swiper-slide">
+                        <article>
+                            <figure class="overlay overlay-1 hover-scale rounded mb-5">
+                                <a href="{{ asset('img/portfolio-4.png') }}" data-fancybox="gallery" data-caption="Portfolio Pembangunan">
+                                    <img src="{{ asset('img/portfolio-4.png') }}" alt="Portfolio Pembangunan" />
+                                </a>
+                                <figcaption>
+                                    <h5 class="from-top mb-0">Lebih Lanjut</h5>
+                                </figcaption>
+                            </figure>
+                        </article>
+                    </div>
                 </div>
-                <!-- /.post-footer -->
-              </article>
-              <!-- /article -->
             </div>
-            <!--/.swiper-slide -->
-            <div class="swiper-slide">
-              <article>
-                <figure class="overlay overlay-1 hover-scale rounded mb-5"><a href="#"> <img
-                      src="{{ asset('img/photos/kandang.jpg') }}" alt="" /></a>
-                  <figcaption>
-                    <h5 class="from-top mb-0">Lebih lanjut</h5>
-                  </figcaption>
-                </figure>
-                <div class="post-header">
-                  <div class="post-category text-line">
-                    <a href="#" class="hover" rel="category">Kandang</a>
-                  </div>
-                </div>
-                <!-- /.post-footer -->
-              </article>
-              <!-- /article -->
-            </div>
-            <!--/.swiper-slide -->
-            <div class="swiper-slide">
-              <article>
-                <figure class="overlay overlay-1 hover-scale rounded mb-5"><a href="#"> <img
-                      src="{{ asset('img/photos/kandang.jpg') }}" alt="" /></a>
-                  <figcaption>
-                    <h5 class="from-top mb-0">Lebih lanjut</h5>
-                  </figcaption>
-                </figure>
-                <div class="post-header">
-                  <div class="post-category text-line">
-                    <a href="#" class="hover" rel="category">Kandang</a>
-                  </div>
-                </div>
-                <!-- /.post-footer -->
-              </article>
-              <!-- /article -->
-            </div>
-            <!--/.swiper-slide -->
-            <div class="swiper-slide">
-              <article>
-                <figure class="overlay overlay-1 hover-scale rounded mb-5"><a href="#"> <img
-                      src="{{ asset('img/photos/kandang.jpg') }}" alt="" /></a>
-                  <figcaption>
-                    <h5 class="from-top mb-0">Lebih lanjut</h5>
-                  </figcaption>
-                </figure>
-                <div class="post-header">
-                  <div class="post-category text-line">
-                    <a href="#" class="hover" rel="category">Kandang</a>
-                  </div>
-                </div>
-                <!-- /.post-footer -->
-              </article>
-              <!-- /article -->
-            </div>
-            <!--/.swiper-slide -->
-          </div>
-          <!--/.swiper-wrapper -->
         </div>
-        <!-- /.swiper -->
-      </div>
-      <!-- /.swiper-container -->
     </div>
-    <!-- /.container -->
   </section>
 
   <!-- Section 5 -->
@@ -465,7 +545,7 @@
   </section> --}}
 
   <!-- Section 7 -->
-  <section id="partner" class="wrapper bg-light wrapper-border">
+  {{-- <section id="partner" class="wrapper bg-light wrapper-border">
     <div class="container py-14 py-md-16">
       <p class="text-center mb-8">Partner Kami</p>
       <div class="swiper-container clients mb-0" data-margin="30" data-dots="false" data-loop="true"
@@ -492,7 +572,7 @@
       <!-- /.swiper-container -->
     </div>
     <!-- /.container -->
-  </section>
+  </section> --}}
 
   <!-- Section 8 -->
   <section id="faq" class="wrapper bg-gray">
@@ -675,7 +755,7 @@
         <div class="col-lg-6 col-xl-5 mx-auto">
           <h2 class="display-4 mb-3 text-center">Tertarik?</h2>
           <p class="lead mb-5 px-md-16 px-lg-3">Jangan ragu untuk menghubungi kami perihal kandang dan peternakan ayam petelur</p>
-          <a href="#" class="btn btn-primary rounded-pill">Konsultasi Sekarang</a>
+          <a href="https://wa.me/6285124572415?text=Halo%20LUGAS%20Farm,%20mohon%20bantuannya,%20saya%20ingin%20bertanya%20terkait…" class="btn btn-primary rounded-pill">Konsultasi Sekarang</a>
         </div>
         <!-- /column -->
       </div>
@@ -684,4 +764,18 @@
     <!-- /.container -->
   </section>
 
+@endsection
+
+@section('script')
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        Fancybox.bind("[data-fancybox='gallery']", {
+            infinite: true,
+            keyboard: true,
+            toolbar: true,
+            arrows: true,
+            animationEffect: "zoom-in-out",
+        });
+    });
+  </script>
 @endsection
