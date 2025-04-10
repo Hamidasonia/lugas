@@ -10,7 +10,7 @@
         <div class="row">
           <div class="col-lg-8 col-xl-6 text-center text-white mx-auto">
             <h1 class="display-1 fs-54 text-white mb-5"><span class="rotator-zoom">Selamat Datang</span></h1>
-            <p class="lead fs-24 mb-0 mx-xxl-8">LUGAS adalah konsultan pembangunan dan manajemen kandang Indonesia yang mengedepankan efisiensi dalam produksi</p>
+            <p class="lead fs-24 mb-0 mx-xxl-8">LUGAS adalah konsultan pembangunan dan manajemen peternakan ayam di Indonesia yang mengedepankan efisiensi dalam produksi dan standardisasi tata kelola operasional.</p>
           </div>
           <!-- /column -->
         </div>
@@ -29,7 +29,7 @@
               <div class="row h-100">
                 <div class="col-md-11 col-lg-8 col-xl-7 col-xxl-6 mx-auto text-center justify-content-center align-self-center">
                   <h1 class="display-1 fs-56 mb-4 text-white animate__animated animate__slideInDown animate__delay-1s">Selamat Datang</h1>
-                  <p class="lead fs-23 lh-sm mb-7 text-white animate__animated animate__slideInRight animate__delay-2s">LUGAS adalah konsultan pembangunan dan manajemen kandang Indonesia yang mengedepankan efisiensi dalam produksi</p>
+                  <p class="lead fs-23 lh-sm mb-7 text-white animate__animated animate__slideInRight animate__delay-2s">LUGAS adalah konsultan pembangunan dan manajemen peternakan ayam di Indonesia yang mengedepankan efisiensi dalam produksi dan standardisasi tata kelola operasional.</p>
                   {{-- <div class="animate__animated animate__slideInUp animate__delay-3s"><a href="./assets/media/movie.mp4" class="btn btn-circle btn-white btn-play ripple mx-auto mb-5" data-glightbox><i class="icn-caret-right"></i></a></div> --}}
                 </div>
                 <!--/column -->
@@ -44,7 +44,7 @@
               <div class="row h-100">
                 <div class="col-md-11 col-lg-8 col-xl-7 col-xxl-6 mx-auto text-center justify-content-center align-self-center">
                   <h1 class="display-1 fs-56 mb-4 text-white animate__animated animate__slideInDown animate__delay-1s">Selamat Datang</h1>
-                  <p class="lead fs-23 lh-sm mb-7 text-white animate__animated animate__slideInRight animate__delay-2s">LUGAS adalah konsultan pembangunan dan manajemen kandang Indonesia yang mengedepankan efisiensi dalam produksi</p>
+                  <p class="lead fs-23 lh-sm mb-7 text-white animate__animated animate__slideInRight animate__delay-2s">LUGAS adalah konsultan pembangunan dan manajemen peternakan ayam di Indonesia yang mengedepankan efisiensi dalam produksi dan standardisasi tata kelola operasional.</p>
                   {{-- <div class="animate__animated animate__slideInUp animate__delay-3s"><a href="./assets/media/movie.mp4" class="btn btn-circle btn-white btn-play ripple mx-auto mb-5" data-glightbox><i class="icn-caret-right"></i></a></div> --}}
                 </div>
                 <!--/column -->
@@ -59,7 +59,7 @@
               <div class="row h-100">
                 <div class="col-md-11 col-lg-8 col-xl-7 col-xxl-6 mx-auto text-center justify-content-center align-self-center">
                   <h1 class="display-1 fs-56 mb-4 text-white animate__animated animate__slideInDown animate__delay-1s">Selamat Datang</h1>
-                  <p class="lead fs-23 lh-sm mb-7 text-white animate__animated animate__slideInRight animate__delay-2s">LUGAS adalah konsultan pembangunan dan manajemen kandang Indonesia yang mengedepankan efisiensi dalam produksi</p>
+                  <p class="lead fs-23 lh-sm mb-7 text-white animate__animated animate__slideInRight animate__delay-2s">LUGAS adalah konsultan pembangunan dan manajemen peternakan ayam di Indonesia yang mengedepankan efisiensi dalam produksi dan standardisasi tata kelola operasional.</p>
                   {{-- <div class="animate__animated animate__slideInUp animate__delay-3s"><a href="./assets/media/movie.mp4" class="btn btn-circle btn-white btn-play ripple mx-auto mb-5" data-glightbox><i class="icn-caret-right"></i></a></div> --}}
                 </div>
                 <!--/column -->
@@ -74,7 +74,7 @@
               <div class="row h-100">
                 <div class="col-md-11 col-lg-8 col-xl-7 col-xxl-6 mx-auto text-center justify-content-center align-self-center">
                   <h1 class="display-1 fs-56 mb-4 text-white animate__animated animate__slideInDown animate__delay-1s">Selamat Datang</h1>
-                  <p class="lead fs-23 lh-sm mb-7 text-white animate__animated animate__slideInRight animate__delay-2s">LUGAS adalah konsultan pembangunan dan manajemen kandang Indonesia yang mengedepankan efisiensi dalam produksi</p>
+                  <p class="lead fs-23 lh-sm mb-7 text-white animate__animated animate__slideInRight animate__delay-2s">LUGAS adalah konsultan pembangunan dan manajemen peternakan ayam di Indonesia yang mengedepankan efisiensi dalam produksi dan standardisasi tata kelola operasional.</p>
                   {{-- <div class="animate__animated animate__slideInUp animate__delay-3s"><a href="./assets/media/movie.mp4" class="btn btn-circle btn-white btn-play ripple mx-auto mb-5" data-glightbox><i class="icn-caret-right"></i></a></div> --}}
                 </div>
                 <!--/column -->
@@ -89,7 +89,7 @@
               <div class="row h-100">
                 <div class="col-md-11 col-lg-8 col-xl-7 col-xxl-6 mx-auto text-center justify-content-center align-self-center">
                   <h1 class="display-1 fs-56 mb-4 text-white animate__animated animate__slideInDown animate__delay-1s">Selamat Datang</h1>
-                  <p class="lead fs-23 lh-sm mb-7 text-white animate__animated animate__slideInRight animate__delay-2s">LUGAS adalah konsultan pembangunan dan manajemen kandang Indonesia yang mengedepankan efisiensi dalam produksi</p>
+                  <p class="lead fs-23 lh-sm mb-7 text-white animate__animated animate__slideInRight animate__delay-2s">LUGAS adalah konsultan pembangunan dan manajemen peternakan ayam di Indonesia yang mengedepankan efisiensi dalam produksi dan standardisasi tata kelola operasional.</p>
                   {{-- <div class="animate__animated animate__slideInUp animate__delay-3s"><a href="./assets/media/movie.mp4" class="btn btn-circle btn-white btn-play ripple mx-auto mb-5" data-glightbox><i class="icn-caret-right"></i></a></div> --}}
                 </div>
                 <!--/column -->
@@ -104,7 +104,7 @@
               <div class="row h-100">
                 <div class="col-md-11 col-lg-8 col-xl-7 col-xxl-6 mx-auto text-center justify-content-center align-self-center">
                   <h1 class="display-1 fs-56 mb-4 text-white animate__animated animate__slideInDown animate__delay-1s">Selamat Datang</h1>
-                  <p class="lead fs-23 lh-sm mb-7 text-white animate__animated animate__slideInRight animate__delay-2s">LUGAS adalah konsultan pembangunan dan manajemen kandang Indonesia yang mengedepankan efisiensi dalam produksi</p>
+                  <p class="lead fs-23 lh-sm mb-7 text-white animate__animated animate__slideInRight animate__delay-2s">LUGAS adalah konsultan pembangunan dan manajemen peternakan ayam di Indonesia yang mengedepankan efisiensi dalam produksi dan standardisasi tata kelola operasional.</p>
                   {{-- <div class="animate__animated animate__slideInUp animate__delay-3s"><a href="./assets/media/movie.mp4" class="btn btn-circle btn-white btn-play ripple mx-auto mb-5" data-glightbox><i class="icn-caret-right"></i></a></div> --}}
                 </div>
                 <!--/column -->
@@ -151,8 +151,8 @@
         <div class="col-lg-6">
           <img src="{{ asset('img/icons/lineal/megaphone.svg') }}" class="svg-inject icon-svg icon-svg-md text-primary mb-4" 
             alt="" />
-          <h2 class="display-4 mb-3" data-cue="slideInDown" style="color: #DC5800">Solusi Pembangunan Kandang, Manajemen dan Konsultasi Ayam Petelur</h2>
-          <p class="lead fs-lg" data-cue="slideInDown" style="color: #0D1E41">Kami berfokus pada bidang ayam petelur dan menjadi ahli sejak tahun 1997</p>
+          <h2 class="display-4 mb-3" data-cue="slideInDown" style="color: #DC5800">Solusi Pembangunan dan Manajemen Peternakan Ayam</h2>
+          <p class="lead fs-lg" data-cue="slideInDown" style="color: #0D1E41">Kami menerapkan standar ISO 9001:2015 dalam menjalankan manajemen peternakan.</p>
           <a href="#process" class="btn btn-primary rounded-pill mb-0">Selanjutnya</a>
           <!--/.row -->
         </div>
@@ -295,42 +295,42 @@
           <div class="col-lg-6 ms-auto">
             <div class="pt-13 pb-15 pb-md-17 py-lg-16 ps-lg-15 pe-xxl-16">
               <h2 class="fs-15 text-uppercase text-muted mb-3" data-cue="slideInLeft">Apa yang Kami Kerjakan?</h2>
-              <h3 class="display-3 ls-sm mb-7" style="color: #DC5800" data-cue="slideInLeft">Konsultasikan Kebutuhan Anda Seputar Bisnis Ayam Petelur dari Hulu Hingga Hilir Kepada Kami</h3>
+              <h3 class="display-3 ls-sm mb-7" style="color: #DC5800" data-cue="slideInLeft">Konsultasikan Kebutuhan Anda Seputar Bisnis Peternakan Ayam</h3>
               
-              <div class="d-flex flex-row mb-5">
+              <div class="d-flex mb-5">
                 <img src="{{ asset('img/icons/lineal/light-bulb.svg') }}" class="svg-inject icon-svg icon-svg-md text-orange me-5 mt-1" alt="" />
                 <div>
-                  <h4 class="fs-20 ls-sm" style="color: #ffffff" data-cue="slideInLeft">Konsultasi Bisnis Ayam Petelur</h4>
-                  <p class="mb-0" style="color: #ffffff" data-cue="slideInLeft">Dapatkan panduan ahli dalam manajemen pakan, kesehatan ternak, strategi pemasaran, dan analisis keuntungan. Optimalkan produksi dan raih keuntungan maksimal dengan efisien.</p>
+                  <h4 class="fs-20 ls-sm" style="color: #ffffff" data-cue="slideInLeft">Konsultasi Bisnis Ayam</h4>
+                  <p class="mb-0" style="color: #ffffff" data-cue="slideInLeft">Dapatkan panduan ahli dalam manajemen pakan, kesehatan ternak, strategi, pemasaran, dan analisa usaha.</p>
                 </div>
               </div>
               
-              <div class="d-flex flex-row mb-5">
+              <div class="d-flex mb-5">
                 <img src="{{ asset('img/icons/lineal/pie-chart-2.svg') }}" class="svg-inject icon-svg icon-svg-md text-orange me-5 mt-1" alt="" />
                 <div>
                   <h4 class="fs-20 ls-sm" style="color: #ffffff" data-cue="slideInLeft">Pembuatan Kandang dan Penyediaan Alat</h4>
-                  <p class="mb-0" style="color: #ffffff" data-cue="slideInLeft">Kami menyediakan layanan pembuatan kandang yang efisien dan sesuai standar, serta penyediaan alat-alat peternakan berkualitas. Pastikan ayam petelur Anda tumbuh optimal dengan fasilitas terbaik.</p>
+                  <p class="mb-0" style="color: #ffffff" data-cue="slideInLeft">Kami menyediakan layanan pembuatan kandang yang efisien dan sesuai standar; mulai dari layout desain hingga pembangunannya.</p>
                 </div>
               </div>
               
-              <div class="d-flex flex-row mb-5">
+              <div class="d-flex mb-5">
                 <img src="{{ asset('img/icons/lineal/design.svg') }}" class="svg-inject icon-svg icon-svg-md text-orange me-5 mt-1" alt="" />
                 <div>
                   <h4 class="fs-20 ls-sm" style="color: #ffffff" data-cue="slideInLeft">Manajemen Kandang</h4>
-                  <p class="mb-0" style="color: #ffffff" data-cue="slideInLeft">Dengan manajemen kandang yang tepat, kami membantu dalam pengaturan ventilasi, kebersihan, pencahayaan, serta sistem pakan dan minum untuk memastikan kesehatan dan hasil produksi terbaik. Selain itu, kami juga menyediakan pelatihan SDM agar tim Anda siap dan terampil dalam mengelola kandang, meningkatkan efisiensi, dan menjaga kualitas produksi.</p>
+                  <p class="mb-0" style="color: #ffffff" data-cue="slideInLeft">Dengan manajemen operasional yang tepat, kami membantu dalam pengaturan ventilasi, kebersihan, pencahayaan, serta sistem pakan dan minum untuk memastikan kesehatan dan hasil produksi terbaik. Selain itu, kami juga menyediakan pelatihan SDM agar tim Anda siap dan terampil dalam mengelola peternakan, meningkatkan efisiensi, dan menjaga kualitas produksi.</p>
                 </div>
               </div>
               
               <div>
           <h2 class="fs-15 text-uppercase text-muted mb-3" data-cue="slideInLeft">Visi Misi</h2>
-          <h1 class="ls-sm mb-5" style="color: azure;">Kami Perusahaan yang Memiliki Visi dalam Memajukan Peternak Ayam Petelur</h1>
-          <p class="mb-6" style="color: azure;">Visi kami adalah memampukan para peternak ayam petelur untuk bersaing secara nasional, dengan memastikan efisiensi produksi dan keberlanjutan operasional.</p>
+          <h1 class="ls-sm mb-5" style="color: azure;">Kami Perusahaan yang Memiliki Visi dalam Memajukan Peternakan Ayam</h1>
+          <p class="mb-6" style="color: azure;">Visi kami adalah menjadikan peternak ayam memiliki daya saing secara nasional maupun internasional dengan basis efisiensi produksi dan continuous improvement.</p>
         </div>
     
         <div class="d-flex flex-column align-items-start mb-15 mb-md-18">
           <div class="d-flex flex-row mb-3">
             <i class="uil uil-check me-3" style="color: azure;"></i>
-            <p class="mb-0" style="color: azure;"><strong>01.</strong> Mengembangkan prasarana peternakan untuk mendukung peningkatan produksi yang optimal.</p>
+            <p class="mb-0" style="color: azure;"><strong>01.</strong>  Mengembangkan prasarana peternakan untuk mendukung peningkatan produksi yang optimal.</p>
           </div>
           <div class="d-flex flex-row mb-3">
             <i class="uil uil-check me-3" style="color: azure;"></i>
@@ -338,7 +338,7 @@
           </div>
           <div class="d-flex flex-row">
             <i class="uil uil-check me-3" style="color: azure;"></i>
-            <p class="mb-0" style="color: azure;"><strong>03.</strong> Menyediakan layanan manajemen yang memastikan keberlanjutan operasional dengan efisiensi tinggi.</p>
+            <p class="mb-0" style="color: azure;"><strong>03.</strong> Menyediakan layanan improvement manajemen untuk memastikan keberlanjutan operasional yang efisien.</p>
           </div>
         </div>
     
@@ -369,18 +369,18 @@
         </div>
         <!--/column -->
         <div class="col-md-6 col-lg-3"> <span class="icon btn btn-circle btn-lg btn-primary pe-none mb-4"><span class="number">02</span></span>
-          <h4 class="mb-1" data-cue="bounceIn">Membuat kandang</h4>
-          <p class="mb-0" data-cue="bounceIn">Perencanaan kandang yang disesuaikan dengan anggaran, kebutuhan, geografis dan alat yang diperlukan</p>
+          <h4 class="mb-1" data-cue="bounceIn">Membuat Analisa Usaha</h4>
+          <p class="mb-0" data-cue="bounceIn">Perencanaan kandang yang disesuaikan dengan anggaran, kebutuhan, geografis, dan alat yang diperlukan sesuai perhitungan ROI.</p>
         </div>
         <!--/column -->
         <div class="col-md-6 col-lg-3"> <span class="icon btn btn-circle btn-lg btn-soft-primary pe-none mb-4"><span class="number">03</span></span>
-          <h4 class="mb-1" data-cue="bounceIn">Manajemen kandang yang baik</h4>
+          <h4 class="mb-1" data-cue="bounceIn">Manajemen Peternakan yang baik</h4>
           <p class="mb-0" data-cue="bounceIn">Memastikan operasional kandang dapat berjalan dengan baik, Anda dapat menerapkan sistem kerja kami yang telah terbukti efisien</p>
         </div>
         <!--/column -->
         <div class="col-md-6 col-lg-3"> <span class="icon btn btn-circle btn-lg btn-soft-primary pe-none mb-4"><span class="number">04</span></span>
-          <h4 class="mb-1" data-cue="bounceIn">Menghasilkan produk</h4>
-          <p class="mb-0" data-cue="bounceIn">Dengan sistem manajemen yang baik, Anda dapat menghasilkan produk yang baik dan sesuai linimasa</p>
+          <h4 class="mb-1" data-cue="bounceIn">Menghasilkan Produk dan Supporting</h4>
+          <p class="mb-0" data-cue="bounceIn">Dengan sistem manajemen yang baik, Anda dapat menghasilkan produk yang baik dengan hasil ternak standar nasional maupun internasional dalam bimbingan kami yang berkelanjutan.</p>
         </div>
         <!--/column -->
       </div>
@@ -607,14 +607,13 @@
             <div class="card accordion-item">
               <div class="card-header" id="accordion-heading-3-2">
                 <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-3-2"
-                  aria-expanded="false" aria-controls="accordion-collapse-3-2">Apa perbedaan LUGAS dengan penyedia
-                  alat peternakan lain?</button>
+                  aria-expanded="false" aria-controls="accordion-collapse-3-2">Apa perbedaan LUGAS dengan penyedia alat peternakan lain?</button>
               </div>
               <!-- /.card-header -->
               <div id="accordion-collapse-3-2" class="collapse" aria-labelledby="accordion-heading-3-2"
                 data-bs-target="#accordion-3">
                 <div class="card-body">
-                  <p>Lugas memiliki tim mekanik elektrikal internal serta tim pembangunan yang terlatih serta siap merespon secara cepat bila terjadi kendala serta suku cadang yang mudah didapatkan sebagai komitmen “after sale” kami kepada pelanggan. Kami pun memiliki support tim expert dalam manajemen peternakan, sehingga ketika kami menjual, kami pun berkomitmen pembeli akan mendapat hasil yang optimal dengan produk yang dibeli dan dengan biaya yang terjangkau.</p>
+                  <p>Lugas memiliki tim mekanik elektrikal internal serta tim pembangunan yang terlatih serta siap merespon secara cepat bila terjadi kendala, serta suku cadang yang mudah didapatkan sebagai komitmen after sales kami kepada pelanggan. Kami pun memiliki dukungan tim ahli dalam manajemen peternakan, sehingga tidak saja menjual namun kami juga memastikan peternak bisa berhasil mengoperasikan.</p>
                 </div>
                 <!-- /.card-body -->
               </div>
@@ -624,14 +623,13 @@
             <div class="card accordion-item">
               <div class="card-header" id="accordion-heading-3-3">
                 <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-3-3"
-                  aria-expanded="false" aria-controls="accordion-collapse-3-3">Apakah LUGAS menjual alat-alat
-                  peternakan secara terpisah?</button>
+                  aria-expanded="false" aria-controls="accordion-collapse-3-3">Apakah LUGAS menjual alat-alat peternakan secara terpisah?</button>
               </div>
               <!-- /.card-header -->
               <div id="accordion-collapse-3-3" class="collapse" aria-labelledby="accordion-heading-3-3"
                 data-bs-target="#accordion-3">
                 <div class="card-body">
-                  <p>Kami dapat menjual perlatan kandang secara terpisah sesuai dengan kebutuhan dari konsumen</p>
+                  <p>Kami menghubungkan dan merekomendasikan peralatan kandang sesuai dengan kebutuhan dari konsumen.</p>
                 </div>
                 <!-- /.card-body -->
               </div>
@@ -641,14 +639,13 @@
             <div class="card accordion-item">
               <div class="card-header" id="accordion-heading-3-4">
                 <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-3-4"
-                  aria-expanded="false" aria-controls="accordion-collapse-3-4">Apakah LUGAS dapat membantu membangun
-                  bisnis ayam petelur dari nol?</button>
+                  aria-expanded="false" aria-controls="accordion-collapse-3-4">Apakah LUGAS dapat membantu membangun bisnis ayam petelur dari nol?</button>
               </div>
               <!-- /.card-header -->
               <div id="accordion-collapse-3-4" class="collapse" aria-labelledby="accordion-heading-3-4"
                 data-bs-target="#accordion-3">
                 <div class="card-body">
-                  <p>Ya, kami bisa membantu membangun bisnis peternakan ayam mulai dari 0. Berdasarkan pengalaman yang kami punya, kami siap untuk mendampingi dan mengedukasi setiap orang yang mau memulai bisnis peternakan dapat memulai dan terus berjalan menjadi ekosistem bisnis yang baik dan terus bertumbuh.</p>
+                  <p>Ya, kami bisa membantu membangun bisnis peternakan ayam mulai dari 0. Mulai dari konsultasi lokasi pembangunan sampai analisa usahanya sehingga pelaku bisnis peternakan berhasil.</p>
                 </div>
                 <!-- /.card-body -->
               </div>
@@ -664,7 +661,7 @@
               <div id="accordion-collapse-3-5" class="collapse" aria-labelledby="accordion-heading-3-5"
                 data-bs-target="#accordion-3">
                 <div class="card-body">
-                  <p>Ya, kami dapat mendampingi dan mengedukasi peternakan yang sudah berjalan untuk memiliki managemen yang terstandar sehingga peternakan akan terus berkembang dan bertahan dalam setiap fluktuasi iklim bisnis peternakan.</p>
+                  <p>Ya, kami dapat membantu pengembangan peternakan yang sudah berjalan dalam hal standardisasi manajemen maupun pengembangan perluasan produk.</p>
                 </div>
                 <!-- /.card-body -->
               </div>
@@ -679,7 +676,7 @@
               <div id="accordion-collapse-3-6" class="collapse" aria-labelledby="accordion-heading-3-6"
                 data-bs-target="#accordion-3">
                 <div class="card-body">
-                  <p>Lugas akan memberikan edukasi kepada pembeli dalam optimalisasi penggunaan alat yang dibeli sehingga dapat memberikan hasil yang optimal, serta pelayanan “after sale” kami secara mekanik elektrikal akan siap sedia untuk melakukan pemeliharaan alat sehingga dapat selalu berfungsi optimal.</p>
+                  <p>Lugas akan memberikan pelatihan kepada customer dalam optimalisasi dan troubleshooting peralatan yang dibeli, serta pelayanan after sales kami yang secara berkala baik mekanik maupun elektrikal sehingga dapat melakukan pemeliharaan berkala agar dapat selalu berfungsi secara optimal.</p>
                 </div>
                 <!-- /.card-body -->
               </div>
@@ -709,7 +706,7 @@
               <div id="accordion-collapse-3-8" class="collapse" aria-labelledby="accordion-heading-3-8"
                 data-bs-target="#accordion-3">
                 <div class="card-body">
-                  <p>Ya, Lugas melayani juga untuk pembuatan kandang ternak lain seperti ayam pedaging, babi, dll.</p>
+                  <p>Ya, Lugas juga melayani juga untuk pembuatan kandang ternak lain. Silakan konsultasikan kebutuhan Anda.</p>
                 </div>
                 <!-- /.card-body -->
               </div>
@@ -754,8 +751,8 @@
       <div class="row">
         <div class="col-lg-6 col-xl-5 mx-auto">
           <h2 class="display-4 mb-3 text-center">Tertarik?</h2>
-          <p class="lead mb-5 px-md-16 px-lg-3">Jangan ragu untuk menghubungi kami perihal kandang dan peternakan ayam petelur</p>
-          <a href="https://wa.me/6285124572415?text=Halo%20LUGAS%20Farm,%20mohon%20bantuannya,%20saya%20ingin%20bertanya%20terkait…" class="btn btn-primary rounded-pill">Konsultasi Sekarang</a>
+          <p class="lead mb-5 px-md-16 px-lg-3">Jangan ragu untuk menghubungi kami</p>
+          <a href="https://wa.me/6285124572415?text=Halo%20LUGAS%20Farm,%20mohon%20bantuannya,%20saya%20ingin%20bertanya%20terkait…" class="btn btn-primary rounded-pill">Konsultasikan Sekarang</a>
         </div>
         <!-- /column -->
       </div>

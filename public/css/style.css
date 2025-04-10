@@ -33339,8 +33339,9 @@ img.svg-inject {
   height: 3rem;
 }
 .icon-svg.icon-svg-md {
-  width: 2.6rem;
-  height: 2.6rem;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
 }
 .icon-svg.icon-svg-sm {
   width: 2.2rem;
